@@ -138,7 +138,7 @@ extension Dashboard: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if segmentControl.selectedSegmentIndex == 0 {
             if selectedIndex != nil  && selectedIndex == indexPath.row {
-                return 560
+                return 537
             }
             return 79
         }
