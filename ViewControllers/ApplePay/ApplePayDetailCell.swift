@@ -23,7 +23,7 @@ class ApplePayDetailCell: UITableViewCell {
     }
 
     func loadData() {
-        labelTitle.text = "SUBTOTAL\nSALE TAX\nSHIPPING"
+        labelTitle.text = "Subtotal\nSale Tax\nShipping"
 
         
         if packageType == 1 {
