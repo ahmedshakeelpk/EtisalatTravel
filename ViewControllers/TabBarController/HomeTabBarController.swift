@@ -8,30 +8,6 @@
 import UIKit
 
 class HomeTabBarController: UITabBarController, UITabBarControllerDelegate {
-//
-//    override var selectedIndex: Int { // Mark 1
-//        didSet {
-//            guard let selectedViewController = viewControllers?[selectedIndex] else {
-//                return
-//            }
-//            selectedViewController.tabBarItem.setTitleTextAttributes([.font: AppFont.appSemiBold(size: 13) ], for: .normal)
-//        }
-//    }
-//
-//    override var selectedViewController: UIViewController? { // Mark 2
-//        didSet {
-//            guard let viewControllers = viewControllers else {
-//                return
-//            }
-//            for viewController in viewControllers {
-//                if viewController == selectedViewController {
-//                    viewController.tabBarItem.setTitleTextAttributes([.font: AppFont.appSemiBold(size: 13) ], for: .normal)
-//                } else {
-//                    viewController.tabBarItem.setTitleTextAttributes([.font: AppFont.appRegular(size: FontSize.xxSmall) ], for: .normal)
-//                }
-//            }
-//        }
-//    }
 
     override func viewDidLoad() {
         self.navigationBarHidden()
