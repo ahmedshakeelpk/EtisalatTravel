@@ -32,9 +32,10 @@ class HomeTabBarController: UITabBarController, UITabBarControllerDelegate {
 //            }
 //        }
 //    }
+    
+    
 
     override func viewDidLoad() {
-        self.navigationBarHidden()
 
         super.viewDidLoad()
         self.delegate = self
@@ -56,37 +57,49 @@ class HomeTabBarController: UITabBarController, UITabBarControllerDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+        self.navigationBarHidden()
+
         guard let dashboardVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
         
         guard let dataUsageVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DataUsage") as? DataUsage else {return}
+        
+//                if let isPackageSubscribed = defaults.value(forKey: "isPackageSubscribed") {
+//
+//                }
+//                else {
+//                    self.pushToVC(toStoryboard: .main, toVC: Dashboard.self) {
+//                        vc in
+//
+//                    }
+//                }
 
 
         
-        if let isPackageSubscribed = defaults.value(forKey: "isPackageSubscribed") {
+        if let _ = defaults.value(forKey: "isPackageSubscribed") {
             let homeNav = UINavigationController(rootViewController: dataUsageVC)
             homeNav.tabBarItem = UITabBarItem(title: "Shop", image: UIImage(named: "Shop-gray"), selectedImage: UIImage(named: "Shop"))
 
-            let shopNav = UINavigationController(rootViewController: dataUsageVC)
-            shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
-
-            let profileNav = UINavigationController(rootViewController: dataUsageVC)
-            profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
+//            let shopNav = UINavigationController(rootViewController: dataUsageVC)
+//            shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
+//
+//            let profileNav = UINavigationController(rootViewController: dataUsageVC)
+//            profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
             
-            let controllers = [homeNav, shopNav, profileNav]
+//            let controllers = [homeNav, shopNav, profileNav]
+            let controllers = [homeNav]
+
             self.viewControllers = controllers
         }else {
-            dashboardVC.isFromLoginScreen = true
             let homeNav = UINavigationController(rootViewController: dashboardVC)
             homeNav.tabBarItem = UITabBarItem(title: "Shop", image: UIImage(named: "Shop-gray"), selectedImage: UIImage(named: "Shop"))
 
-            let shopNav = UINavigationController(rootViewController: dashboardVC)
-            shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
-
-            let profileNav = UINavigationController(rootViewController: dashboardVC)
-            profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
+//            let shopNav = UINavigationController(rootViewController: dashboardVC)
+//            shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
+//
+//            let profileNav = UINavigationController(rootViewController: dashboardVC)
+//            profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
             
-            let controllers = [homeNav, shopNav, profileNav]
+            let controllers = [homeNav]
             self.viewControllers = controllers
         }
 

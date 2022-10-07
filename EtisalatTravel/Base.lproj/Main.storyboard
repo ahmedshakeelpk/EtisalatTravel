@@ -20,7 +20,7 @@
         <!--Data Usage-->
         <scene sceneID="cPf-KD-fpH">
             <objects>
-                <viewController id="ivC-Gg-YZr" customClass="DataUsage" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DataUsage" id="ivC-Gg-YZr" customClass="DataUsage" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xjf-gF-cpl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -675,33 +675,6 @@
             </objects>
             <point key="canvasLocation" x="2385" y="-625.35211267605632"/>
         </scene>
-        <!--Data Usage-->
-        <scene sceneID="LC5-qL-W6W">
-            <objects>
-                <viewController id="lgb-OA-BSB" customClass="DataUsage" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="D0L-Dq-FPP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Fk2-zZ-2zf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="siH-YG-fqu"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="siH-YG-fqu" firstAttribute="trailing" secondItem="Fk2-zZ-2zf" secondAttribute="trailing" id="3TN-C5-G2I"/>
-                            <constraint firstItem="siH-YG-fqu" firstAttribute="bottom" secondItem="Fk2-zZ-2zf" secondAttribute="bottom" id="9Ho-S4-Yl8"/>
-                            <constraint firstItem="Fk2-zZ-2zf" firstAttribute="leading" secondItem="siH-YG-fqu" secondAttribute="leading" id="ktG-G3-kbT"/>
-                            <constraint firstItem="Fk2-zZ-2zf" firstAttribute="top" secondItem="siH-YG-fqu" secondAttribute="top" id="orv-nH-UIy"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BfN-wN-883" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3112.5" y="-713.02816901408448"/>
-        </scene>
         <!--Dashboard-->
         <scene sceneID="Uir-xU-UFM">
             <objects>
@@ -1235,7 +1208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTq-ZZ-sdJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="230.43478260869566" y="64.955357142857139"/>
+            <point key="canvasLocation" x="-1847" y="-624"/>
         </scene>
         <!--Forgot-->
         <scene sceneID="umx-jc-UVX">
@@ -1379,7 +1352,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DT8-ug-k4O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-762" y="66"/>
+            <point key="canvasLocation" x="-2803" y="-625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xEj-ge-cFC">
