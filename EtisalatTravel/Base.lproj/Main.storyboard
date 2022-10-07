@@ -829,7 +829,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UGN-iR-1rt">
                                         <rect key="frame" x="0.0" y="182" width="428" height="50"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULAR DESTINATIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6w-T6-cSy" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular Destinations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6w-T6-cSy" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="0.0" width="388" height="50"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="13"/>
                                                 <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1193,6 +1193,10 @@
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="7gQ-X9-n4V">
                                 <rect key="frame" x="133.66666666666666" y="114" width="160.99999999999997" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="BSw-dY-ntF"/>
+                                    <constraint firstAttribute="width" constant="161" id="LTC-zZ-eQh"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4Rp-Md-0Qf"/>
