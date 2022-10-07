@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="79" id="KGk-i7-Jjw" customClass="DashboardCountryCell" customModule="EtisalatTravel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zme-9l-5Ec">
+                        <rect key="frame" x="20" y="8" width="280" height="79"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZs-yp-Yfa" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
+                                <rect key="frame" x="58" y="33" width="202" height="13.5"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8G3-4w-Pxp">
+                                <rect key="frame" x="20" y="24.5" width="30" height="30"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marahabaCard" translatesAutoresizingMaskIntoConstraints="NO" id="jCm-Bv-lvk">
+                                        <rect key="frame" x="-5" y="-17.5" width="40" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="83d-HE-J2n"/>
+                                            <constraint firstAttribute="height" constant="55" id="KAs-NS-ygE"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="jCm-Bv-lvk" firstAttribute="centerX" secondItem="8G3-4w-Pxp" secondAttribute="centerX" id="ALH-4e-wS9"/>
+                                    <constraint firstAttribute="width" constant="30" id="R0I-yq-t9c"/>
+                                    <constraint firstItem="jCm-Bv-lvk" firstAttribute="centerY" secondItem="8G3-4w-Pxp" secondAttribute="centerY" constant="-5" id="nck-2X-HlT"/>
+                                    <constraint firstAttribute="height" constant="30" id="pcK-my-f0P"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forwardArrowBrown" translatesAutoresizingMaskIntoConstraints="NO" id="zgW-fp-Szn">
+                                <rect key="frame" x="250" y="29.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="2Gg-Rn-aBD"/>
+                                    <constraint firstAttribute="height" constant="20" id="3Qk-Dd-Cf6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eZs-yp-Yfa" firstAttribute="leading" secondItem="8G3-4w-Pxp" secondAttribute="trailing" constant="8" id="AZZ-zf-Qjb"/>
+                            <constraint firstItem="zgW-fp-Szn" firstAttribute="centerY" secondItem="zme-9l-5Ec" secondAttribute="centerY" id="Ior-OP-xjS"/>
+                            <constraint firstItem="8G3-4w-Pxp" firstAttribute="centerY" secondItem="zme-9l-5Ec" secondAttribute="centerY" id="Jrf-ga-PlN"/>
+                            <constraint firstAttribute="trailing" secondItem="eZs-yp-Yfa" secondAttribute="trailing" constant="20" id="bDb-5d-apV"/>
+                            <constraint firstAttribute="trailing" secondItem="zgW-fp-Szn" secondAttribute="trailing" constant="10" id="p07-et-g54"/>
+                            <constraint firstItem="8G3-4w-Pxp" firstAttribute="leading" secondItem="zme-9l-5Ec" secondAttribute="leading" constant="20" symbolic="YES" id="pit-Hu-6yc"/>
+                            <constraint firstItem="eZs-yp-Yfa" firstAttribute="centerY" secondItem="zme-9l-5Ec" secondAttribute="centerY" id="sPz-Jw-K9U"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="zme-9l-5Ec" secondAttribute="bottom" constant="8" id="1uu-zp-Awa"/>
+                    <constraint firstAttribute="trailing" secondItem="zme-9l-5Ec" secondAttribute="trailing" constant="20" id="9uY-PR-Pho"/>
+                    <constraint firstItem="zme-9l-5Ec" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="GZg-O6-LI3"/>
+                    <constraint firstItem="zme-9l-5Ec" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="eYC-Ad-KEv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="imageViewFlag" destination="jCm-Bv-lvk" id="NzE-k6-yPr"/>
+                <outlet property="labelTitle" destination="eZs-yp-Yfa" id="LXp-Cr-3MI"/>
+                <outlet property="viewBackGround" destination="zme-9l-5Ec" id="gIf-y8-HC7"/>
+                <outlet property="viewFlagBackGround" destination="8G3-4w-Pxp" id="ldC-mZ-eLg"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="112.16517857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="forwardArrowBrown" width="73" height="73"/>
+        <image name="marahabaCard" width="285" height="183"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

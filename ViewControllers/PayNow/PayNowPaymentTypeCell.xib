@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="79" id="x6c-Du-nnR" customClass="PayNowPaymentTypeCell" customModule="EtisalatTravel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x6c-Du-nnR" id="g3U-sL-Rya">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lYP-vt-eWV">
+                        <rect key="frame" x="20" y="20" width="280" height="90"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sd4-HM-4NJ" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
+                                <rect key="frame" x="70" y="37" width="190" height="16"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tVD-9Z-E1p">
+                                <rect key="frame" x="20" y="30" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PHe-29-oKd"/>
+                                    <constraint firstAttribute="width" constant="30" id="t4B-JN-LBC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unselectBlack" translatesAutoresizingMaskIntoConstraints="NO" id="7HC-zZ-ydj">
+                                <rect key="frame" x="240" y="35" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="JOU-qh-7fq"/>
+                                    <constraint firstAttribute="width" constant="20" id="hXZ-ZY-qfd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Sd4-HM-4NJ" secondAttribute="trailing" constant="20" id="BY9-65-jHw"/>
+                            <constraint firstItem="7HC-zZ-ydj" firstAttribute="centerY" secondItem="lYP-vt-eWV" secondAttribute="centerY" id="BdL-s3-pQQ"/>
+                            <constraint firstItem="tVD-9Z-E1p" firstAttribute="centerY" secondItem="lYP-vt-eWV" secondAttribute="centerY" id="Dlb-Y0-EFW"/>
+                            <constraint firstItem="Sd4-HM-4NJ" firstAttribute="leading" secondItem="tVD-9Z-E1p" secondAttribute="trailing" constant="20" id="OfP-O9-cCV"/>
+                            <constraint firstItem="tVD-9Z-E1p" firstAttribute="leading" secondItem="lYP-vt-eWV" secondAttribute="leading" constant="20" id="TOY-LI-u27"/>
+                            <constraint firstItem="Sd4-HM-4NJ" firstAttribute="centerY" secondItem="tVD-9Z-E1p" secondAttribute="centerY" id="p72-4F-P58"/>
+                            <constraint firstAttribute="trailing" secondItem="7HC-zZ-ydj" secondAttribute="trailing" constant="20" id="yMs-dl-LgV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="lYP-vt-eWV" secondAttribute="trailing" constant="20" id="5IX-lw-xuf"/>
+                    <constraint firstItem="lYP-vt-eWV" firstAttribute="top" secondItem="g3U-sL-Rya" secondAttribute="top" constant="20" id="7QN-gD-akO"/>
+                    <constraint firstAttribute="bottom" secondItem="lYP-vt-eWV" secondAttribute="bottom" constant="20" id="ZMX-Tf-IgD"/>
+                    <constraint firstItem="lYP-vt-eWV" firstAttribute="leading" secondItem="g3U-sL-Rya" secondAttribute="leading" constant="20" id="cvP-3F-fwC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="ju9-Db-JaU"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="imageViewRadioButton" destination="7HC-zZ-ydj" id="kPP-rp-hHS"/>
+                <outlet property="imagveViewIcon" destination="tVD-9Z-E1p" id="3J2-lt-oqd"/>
+                <outlet property="labelTitle" destination="Sd4-HM-4NJ" id="dPH-Sg-loc"/>
+                <outlet property="viewBackGround" destination="lYP-vt-eWV" id="6AZ-bl-0Do"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="112.16517857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="unselectBlack" width="67" height="67"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
