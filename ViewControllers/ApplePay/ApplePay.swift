@@ -13,8 +13,8 @@ class ApplePay: UIViewController {
     var packageType = 0
     var doneButtonPress: (() -> ())?
     
-    var arrayTitle = ["CARD", "SHIPPING", "CONTACT"]
-    var arrayDescription = ["CAPITAL OF BANK DEBIT\n(**** 3824)", "JOHN APPLESEED\n683 JEFFERSON STREET TIBURON, CA 92940", "J.APPLESEED@ICLOUD.COM\n(408 555-0198)"]
+    var arrayTitle = ["Card", "Shipping", "Contact"]
+    var arrayDescription = ["Capital of bank debit\n(**** 3824)", "John Appleseed\n683 Jefferson streed tiburon, CA 92940", "j.appleseed@icloud.com\n(408 555-0198)"]
 
     @IBOutlet weak var buttonCancel: UIButton!
     @IBAction func buttonCancel(_ sender: Any) {

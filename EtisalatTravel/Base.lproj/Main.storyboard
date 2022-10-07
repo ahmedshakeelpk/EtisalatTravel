@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ewi-fo-Hp7">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ewi-fo-Hp7">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,33 +22,33 @@
             <objects>
                 <viewController storyboardIdentifier="DataUsage" id="ivC-Gg-YZr" customClass="DataUsage" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xjf-gF-cpl">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="VZd-15-UWh">
-                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
+                                <rect key="frame" x="0.0" y="44" width="320" height="848"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FJK-Ub-bba">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="840"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="840"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oxb-FO-7wP">
-                                                <rect key="frame" x="0.0" y="0.0" width="428" height="10"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="10"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="10" id="3eC-gz-yes"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dyy-fX-KvK">
-                                                <rect key="frame" x="0.0" y="10" width="428" height="135"/>
+                                                <rect key="frame" x="0.0" y="10" width="320" height="135"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="oCt-kl-gpG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="428" height="40"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="RA3-ln-5Sv"/>
                                                         </constraints>
                                                     </imageView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="mw3-Jy-ysl">
-                                                        <rect key="frame" x="20" y="60" width="388" height="40"/>
+                                                        <rect key="frame" x="20" y="60" width="280" height="40"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Muhammed!," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7J-jA-sbm" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="180" height="40"/>
@@ -60,13 +60,13 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+971 500 123456" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXQ-E2-nqV" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                <rect key="frame" x="191" y="0.0" width="197" height="40"/>
+                                                                <rect key="frame" x="191" y="0.0" width="89" height="40"/>
                                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="10"/>
                                                                 <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="JNs-rL-lYi">
-                                                                <rect key="frame" x="388" y="0.0" width="40" height="40"/>
+                                                                <rect key="frame" x="280" y="0.0" width="40" height="40"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="40" id="2z8-nP-Q9p"/>
                                                                     <constraint firstAttribute="width" constant="40" id="Yy1-wy-07h"/>
@@ -75,7 +75,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore data packs for 190+ destinations and regions" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbH-KA-wOy" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                        <rect key="frame" x="20" y="100" width="388" height="12.333333333333329"/>
+                                                        <rect key="frame" x="20" y="100" width="280" height="12.5"/>
                                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="11"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -98,22 +98,22 @@
                                                 </constraints>
                                             </view>
                                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tbG-jU-JZd">
-                                                <rect key="frame" x="0.0" y="145" width="428" height="270"/>
+                                                <rect key="frame" x="0.0" y="145" width="320" height="270"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QlM-Vu-Yde">
-                                                        <rect key="frame" x="0.0" y="0.0" width="428" height="270"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="270"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4yU-hy-Stu">
-                                                                <rect key="frame" x="0.0" y="0.0" width="428" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOP UP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PqG-1T-zAm" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="65" y="18.333333333333343" width="44.333333333333343" height="13.666666666666664"/>
+                                                                        <rect key="frame" x="65" y="18.5" width="44.5" height="13.5"/>
                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                                         <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TURKEY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0p-WF-xFd" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="358.33333333333331" y="18.333333333333343" width="49.666666666666686" height="13.666666666666664"/>
+                                                                        <rect key="frame" x="250.5" y="18.5" width="49.5" height="13.5"/>
                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                                         <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -126,7 +126,7 @@
                                                                         </constraints>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVERAGE:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCg-YB-81q" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="255.00000000000003" y="17.333333333333343" width="83.333333333333343" height="15.666666666666664"/>
+                                                                        <rect key="frame" x="147" y="17" width="83.5" height="16"/>
                                                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
                                                                         <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -146,16 +146,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hSt-h0-Vro">
-                                                                <rect key="frame" x="0.0" y="50" width="428" height="80"/>
+                                                                <rect key="frame" x="0.0" y="50" width="320" height="80"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Y91-am-kcc">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="428" height="80"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MH8-AM-zjP">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="214" height="80"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="160" height="80"/>
                                                                                 <subviews>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l67-P0-D7V">
-                                                                                        <rect key="frame" x="57" y="7.6666666666666572" width="100" height="65"/>
+                                                                                        <rect key="frame" x="30" y="7.5" width="100" height="65"/>
                                                                                         <subviews>
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marahabaCard" translatesAutoresizingMaskIntoConstraints="NO" id="jog-fl-1hq">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="65"/>
@@ -178,19 +178,19 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zL7-Qj-Y6f">
-                                                                                <rect key="frame" x="214" y="0.0" width="214" height="80"/>
+                                                                                <rect key="frame" x="160" y="0.0" width="160" height="80"/>
                                                                                 <subviews>
                                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ue6-wy-Cq8">
-                                                                                        <rect key="frame" x="0.0" y="20" width="214" height="40"/>
+                                                                                        <rect key="frame" x="0.0" y="20" width="160" height="40"/>
                                                                                         <subviews>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ICCID NUMBER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJ2-0I-xAg" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="214" height="20"/>
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="160" height="20"/>
                                                                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="89102000000005087165" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sca-8X-iKt" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                                <rect key="frame" x="0.0" y="20" width="214" height="20"/>
+                                                                                                <rect key="frame" x="0.0" y="20" width="160" height="20"/>
                                                                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="11"/>
                                                                                                 <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                 <nil key="highlightedColor"/>
@@ -231,10 +231,10 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TGZ-31-IGx">
-                                                                <rect key="frame" x="0.0" y="130" width="428" height="60"/>
+                                                                <rect key="frame" x="0.0" y="130" width="320" height="60"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iH-c2-rQu" customClass="ButtonSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="248" y="12.666666666666686" width="160" height="35"/>
+                                                                        <rect key="frame" x="140" y="12.5" width="160" height="35"/>
                                                                         <color key="backgroundColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="160" id="Q9U-Nn-sTN"/>
@@ -247,7 +247,7 @@
                                                                         </state>
                                                                     </button>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active until: Oct, 25 2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYB-n1-914" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="20" y="24" width="130.33333333333334" height="12.333333333333336"/>
+                                                                        <rect key="frame" x="20" y="24" width="130.5" height="12.5"/>
                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="11"/>
                                                                         <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -263,7 +263,7 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XnX-jN-xa4" customClass="GradientView" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="190" width="428" height="80"/>
+                                                                <rect key="frame" x="0.0" y="190" width="320" height="80"/>
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sim" translatesAutoresizingMaskIntoConstraints="NO" id="IVl-pe-aUe">
                                                                         <rect key="frame" x="20" y="0.0" width="40" height="80"/>
@@ -273,7 +273,7 @@
                                                                         </constraints>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="eSIM Installation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hi-og-uJd" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="80.000000000000014" y="30" width="142.33333333333337" height="20.333333333333329"/>
+                                                                        <rect key="frame" x="80" y="30" width="142.5" height="20.5"/>
                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -318,19 +318,19 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8OY-cS-fSC">
-                                                <rect key="frame" x="0.0" y="415" width="428" height="130"/>
+                                                <rect key="frame" x="0.0" y="415" width="320" height="130"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uvf-s2-k7q">
-                                                        <rect key="frame" x="20" y="40" width="388" height="70"/>
+                                                        <rect key="frame" x="20" y="40" width="280" height="70"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Install esim / Access Data" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TS-vu-qZs" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                <rect key="frame" x="121.00000000000001" y="28.333333333333375" width="146.33333333333337" height="13.666666666666668"/>
+                                                                <rect key="frame" x="67" y="28.5" width="146.5" height="13.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </label>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Scb-zb-skV">
-                                                                <rect key="frame" x="81" y="24.999999999999993" width="20" height="19.666666666666671"/>
+                                                                <rect key="frame" x="27" y="25" width="20" height="20"/>
                                                                 <color key="tintColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="20" id="cBg-xY-4aC"/>
@@ -358,34 +358,34 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lN5-Bo-9kZ">
-                                                <rect key="frame" x="0.0" y="545" width="428" height="150"/>
+                                                <rect key="frame" x="0.0" y="545" width="320" height="150"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KeC-vD-fCk">
-                                                        <rect key="frame" x="0.0" y="0.0" width="428" height="150"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UyY-F8-3Sh">
-                                                                <rect key="frame" x="0.0" y="0.0" width="428" height="150"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IMg-AJ-EGp">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="428" height="150"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WgV-lD-rOB">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="214" height="150"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="160" height="150"/>
                                                                                 <subviews>
                                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NsO-K2-eIa">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="214" height="150"/>
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="160" height="150"/>
                                                                                         <subviews>
                                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aCF-71-odk">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="214" height="75"/>
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="160" height="75"/>
                                                                                                 <subviews>
                                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data Usage" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k39-Fq-KhB" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                                        <rect key="frame" x="19.999999999999996" y="20" width="54.666666666666657" height="11.333333333333336"/>
+                                                                                                        <rect key="frame" x="20" y="20" width="54.5" height="11.5"/>
                                                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="10"/>
                                                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                         <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                     </label>
                                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2056MB" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K24-Kk-daL" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                                        <rect key="frame" x="20" y="32.333333333333371" width="53" height="15.666666666666664"/>
+                                                                                                        <rect key="frame" x="20" y="32.5" width="53" height="16"/>
                                                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
                                                                                                         <color key="textColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                         <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -400,16 +400,16 @@
                                                                                                 </constraints>
                                                                                             </view>
                                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNo-h5-8EM">
-                                                                                                <rect key="frame" x="0.0" y="75" width="214" height="75"/>
+                                                                                                <rect key="frame" x="0.0" y="75" width="160" height="75"/>
                                                                                                 <subviews>
                                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Data" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ff9-UV-ZtM" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                                        <rect key="frame" x="19.999999999999996" y="20" width="47.666666666666657" height="11.333333333333336"/>
+                                                                                                        <rect key="frame" x="20" y="20" width="48" height="11.5"/>
                                                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="10"/>
                                                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                         <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                     </label>
                                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3GB" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HvI-PS-DwZ" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                                        <rect key="frame" x="20" y="32.333333333333371" width="29" height="15.666666666666664"/>
+                                                                                                        <rect key="frame" x="20" y="32.5" width="29" height="16"/>
                                                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
                                                                                                         <color key="textColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                         <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -436,10 +436,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QaB-DT-hvi">
-                                                                                <rect key="frame" x="214" y="0.0" width="214" height="150"/>
+                                                                                <rect key="frame" x="160" y="0.0" width="160" height="150"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ring" translatesAutoresizingMaskIntoConstraints="NO" id="XRG-aO-7sR">
-                                                                                        <rect key="frame" x="32" y="0.0" width="150" height="150"/>
+                                                                                        <rect key="frame" x="5" y="0.0" width="150" height="150"/>
                                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="height" constant="150" id="4Rt-FS-vuk"/>
@@ -447,19 +447,19 @@
                                                                                         </constraints>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60 %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51g-HI-bm0" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                        <rect key="frame" x="88.666666666666686" y="48.333333333333371" width="36.666666666666657" height="18"/>
+                                                                                        <rect key="frame" x="62" y="48.5" width="36.5" height="18"/>
                                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
                                                                                         <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1GB of 560 MB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7JV-JF-FTp" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                        <rect key="frame" x="66" y="68.333333333333371" width="82.333333333333314" height="13.666666666666671"/>
+                                                                                        <rect key="frame" x="39" y="68.5" width="82.5" height="13.5"/>
                                                                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                                         <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppd-Qx-mrt" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                        <rect key="frame" x="87.333333333333314" y="84" width="39.666666666666657" height="11.333333333333329"/>
+                                                                                        <rect key="frame" x="60.5" y="84" width="39.5" height="11.5"/>
                                                                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
                                                                                         <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                         <nil key="highlightedColor"/>
@@ -504,26 +504,26 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WfY-c4-3yA">
-                                                <rect key="frame" x="0.0" y="695" width="428" height="15"/>
+                                                <rect key="frame" x="0.0" y="695" width="320" height="15"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="q7m-8V-csg"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRl-am-64I">
-                                                <rect key="frame" x="0.0" y="710" width="428" height="130"/>
+                                                <rect key="frame" x="0.0" y="710" width="320" height="130"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qw4-Si-1G7">
-                                                        <rect key="frame" x="20" y="20" width="388" height="90"/>
+                                                        <rect key="frame" x="20" y="20" width="280" height="90"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WIT-Bq-Per">
-                                                                <rect key="frame" x="0.0" y="0.0" width="388" height="90"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="90"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6FU-XO-cut">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="388" height="40"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="40"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MY PACKAGES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPI-LY-6EV" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                <rect key="frame" x="20" y="15" width="256" height="14"/>
+                                                                                <rect key="frame" x="20" y="15" width="148" height="14"/>
                                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -536,28 +536,28 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kKV-DH-r7q">
-                                                                        <rect key="frame" x="0.0" y="40" width="388" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="40" width="280" height="50"/>
                                                                         <subviews>
                                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="FiN-zQ-y3K">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="388" height="50"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="50"/>
                                                                                 <subviews>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cyu-Yq-AwB">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="388" height="50"/>
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="50"/>
                                                                                         <subviews>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3GB" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVX-SI-Upf" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                                <rect key="frame" x="20" y="18.333333333333371" width="25" height="13.666666666666664"/>
+                                                                                                <rect key="frame" x="20" y="18.5" width="25" height="13.5"/>
                                                                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                                                                 <color key="textColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                 <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                             </label>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   7 Days" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkV-o3-DIH" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                                <rect key="frame" x="47" y="18.333333333333371" width="49" height="13.666666666666664"/>
+                                                                                                <rect key="frame" x="47" y="18.5" width="49" height="13.5"/>
                                                                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                 <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                             </label>
                                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOB-tk-4hb">
-                                                                                                <rect key="frame" x="208" y="10" width="160" height="30"/>
+                                                                                                <rect key="frame" x="100" y="10" width="160" height="30"/>
                                                                                                 <color key="backgroundColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                 <constraints>
                                                                                                     <constraint firstAttribute="height" constant="30" id="aXL-VP-aSN"/>
@@ -639,10 +639,10 @@
                                 </constraints>
                             </scrollView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backGroundWhite" translatesAutoresizingMaskIntoConstraints="NO" id="7b7-YF-4cS">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="-44" width="320" height="646"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DhM-zk-0zc">
-                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -680,11 +680,11 @@
             <objects>
                 <viewController id="lgb-OA-BSB" customClass="DataUsage" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D0L-Dq-FPP">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Fk2-zZ-2zf">
-                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -707,20 +707,20 @@
             <objects>
                 <viewController storyboardIdentifier="Dashboard" id="Fcu-tg-pfB" customClass="Dashboard" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xJT-R6-24w">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backGroundWhite" translatesAutoresizingMaskIntoConstraints="NO" id="Fm8-jf-yV8">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="K6u-nL-0I0">
-                                <rect key="frame" x="0.0" y="64" width="428" height="828"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4WC-xI-4mx">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="MdV-5I-66Z">
-                                                <rect key="frame" x="0.0" y="7" width="428" height="30"/>
+                                                <rect key="frame" x="0.0" y="7" width="320" height="30"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="QPw-by-lnf"/>
@@ -761,16 +761,16 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rid-tV-f9h">
-                                        <rect key="frame" x="0.0" y="44" width="428" height="78"/>
+                                        <rect key="frame" x="0.0" y="44" width="320" height="78"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Muhammad!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbR-gd-Lpe" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="20" width="388" height="29.333333333333329"/>
+                                                <rect key="frame" x="20" y="20" width="280" height="16"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
                                                 <color key="textColor" red="0.90588235289999997" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore data packs for 190+ destinations and regions" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5W-Wz-xYL" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="52.333333333333343" width="388" height="13.666666666666671"/>
+                                                <rect key="frame" x="20" y="39" width="280" height="27"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -788,10 +788,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pVB-bq-ieN">
-                                        <rect key="frame" x="0.0" y="122" width="428" height="60"/>
+                                        <rect key="frame" x="0.0" y="122" width="320" height="60"/>
                                         <subviews>
                                             <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="5RL-bi-VJi">
-                                                <rect key="frame" x="0.0" y="4.6666666666666572" width="428" height="51"/>
+                                                <rect key="frame" x="0.0" y="4.5" width="320" height="51"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </searchBar>
                                         </subviews>
@@ -804,10 +804,10 @@
                                         </constraints>
                                     </view>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B6O-ta-X7b">
-                                        <rect key="frame" x="0.0" y="122" width="428" height="60"/>
+                                        <rect key="frame" x="0.0" y="122" width="320" height="60"/>
                                         <subviews>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2SA-GL-sZc">
-                                                <rect key="frame" x="20" y="14.666666666666657" width="388" height="32"/>
+                                                <rect key="frame" x="20" y="14.5" width="280" height="32"/>
                                                 <segments>
                                                     <segment title="Local eSIMs"/>
                                                     <segment title="Regional eSIMs"/>
@@ -827,10 +827,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UGN-iR-1rt">
-                                        <rect key="frame" x="0.0" y="182" width="428" height="50"/>
+                                        <rect key="frame" x="0.0" y="182" width="320" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULAR DESTINATIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6w-T6-cSy" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="0.0" width="388" height="50"/>
+                                                <rect key="frame" x="20" y="0.0" width="280" height="50"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="13"/>
                                                 <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -846,7 +846,7 @@
                                         </constraints>
                                     </view>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="OnC-AL-NKQ">
-                                        <rect key="frame" x="0.0" y="232" width="428" height="596"/>
+                                        <rect key="frame" x="0.0" y="232" width="320" height="316"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
@@ -896,35 +896,35 @@
             <objects>
                 <viewController storyboardIdentifier="DashboardCardDetails" id="d1S-OO-YnU" customClass="DashboardCardDetails" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lyI-Gm-eUJ">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N9v-un-p6q">
-                                <rect key="frame" x="20" y="44" width="388" height="342"/>
+                                <rect key="frame" x="20" y="0.0" width="280" height="342"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UIH-PW-eTM">
-                                        <rect key="frame" x="0.0" y="15" width="388" height="327"/>
+                                        <rect key="frame" x="0.0" y="15" width="280" height="327"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bbH-n5-tMS">
-                                                <rect key="frame" x="0.0" y="25" width="388" height="302"/>
+                                                <rect key="frame" x="0.0" y="25" width="280" height="302"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fr0-FQ-YzL">
-                                                        <rect key="frame" x="0.0" y="0.0" width="388" height="80"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MERHABA MOBILE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njh-x1-R7C">
-                                                                <rect key="frame" x="20" y="20" width="348" height="17"/>
+                                                                <rect key="frame" x="20" y="20" width="240" height="17"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="United Arab Emirates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVO-5A-UCO">
-                                                                <rect key="frame" x="20" y="40" width="348" height="14.333333333333336"/>
+                                                                <rect key="frame" x="20" y="40" width="240" height="14.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D9f-6c-9B9">
-                                                                <rect key="frame" x="0.0" y="79" width="388" height="1"/>
+                                                                <rect key="frame" x="0.0" y="79" width="280" height="1"/>
                                                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="1" id="mnQ-wM-k0J"/>
@@ -946,23 +946,23 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Dc-Yx-7Xb">
-                                                        <rect key="frame" x="0.0" y="80" width="388" height="65"/>
+                                                        <rect key="frame" x="0.0" y="80" width="280" height="65"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dataIcon" translatesAutoresizingMaskIntoConstraints="NO" id="164-xc-0vO">
-                                                                <rect key="frame" x="20" y="22.666666666666657" width="20" height="20"/>
+                                                                <rect key="frame" x="20" y="22.5" width="20" height="20"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="20" id="ml5-ha-3VU"/>
                                                                     <constraint firstAttribute="height" constant="20" id="vmm-Wf-Vcc"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DATA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ff-Ll-rNe">
-                                                                <rect key="frame" x="60" y="25.333333333333339" width="235" height="14.333333333333332"/>
+                                                                <rect key="frame" x="60" y="25.5" width="127" height="14.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 GB" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iI6-UL-aYj">
-                                                                <rect key="frame" x="303" y="21.666666666666657" width="65" height="21.666666666666671"/>
+                                                                <rect key="frame" x="195" y="22" width="65" height="21.5"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="65" id="WQG-l5-xaj"/>
                                                                 </constraints>
@@ -971,7 +971,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0bW-jy-rce">
-                                                                <rect key="frame" x="0.0" y="64" width="388" height="1"/>
+                                                                <rect key="frame" x="0.0" y="64" width="280" height="1"/>
                                                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="1" id="AW3-o1-kqR"/>
@@ -994,10 +994,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zXt-Dj-S8a">
-                                                        <rect key="frame" x="0.0" y="145" width="388" height="65"/>
+                                                        <rect key="frame" x="0.0" y="145" width="280" height="65"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vLc-SM-6Gf">
-                                                                <rect key="frame" x="20" y="24.333333333333321" width="20" height="17.000000000000007"/>
+                                                                <rect key="frame" x="20" y="23.5" width="20" height="17.5"/>
                                                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="20" id="3gW-W0-Phz"/>
@@ -1005,20 +1005,20 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VALIDITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVF-OE-cs8">
-                                                                <rect key="frame" x="60" y="25.333333333333339" width="205" height="14.333333333333332"/>
+                                                                <rect key="frame" x="60" y="25.5" width="97" height="14.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GZ2-Kg-xFp">
-                                                                <rect key="frame" x="0.0" y="64" width="388" height="1"/>
+                                                                <rect key="frame" x="0.0" y="64" width="280" height="1"/>
                                                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="1" id="SgK-gh-X4j"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7 Days" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWb-AS-BRg">
-                                                                <rect key="frame" x="273" y="21.666666666666657" width="95" height="21.666666666666671"/>
+                                                                <rect key="frame" x="165" y="22" width="95" height="21.5"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="95" id="hsK-Qu-zkt"/>
                                                                 </constraints>
@@ -1043,10 +1043,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dEn-nk-BQv">
-                                                        <rect key="frame" x="0.0" y="210" width="388" height="92"/>
+                                                        <rect key="frame" x="0.0" y="210" width="280" height="92"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvz-6S-gL0">
-                                                                <rect key="frame" x="15" y="15" width="358" height="62"/>
+                                                                <rect key="frame" x="15" y="15" width="250" height="62"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -1075,7 +1075,7 @@
                                         </constraints>
                                     </view>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="22f-Fp-Po4">
-                                        <rect key="frame" x="258" y="0.0" width="120" height="80"/>
+                                        <rect key="frame" x="150" y="0.0" width="120" height="80"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marahabaCard" translatesAutoresizingMaskIntoConstraints="NO" id="prk-od-46e">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="80"/>
@@ -1129,20 +1129,20 @@
             <objects>
                 <viewController storyboardIdentifier="WalkThroughs" id="3vr-ET-vMa" customClass="WalkThroughs" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="caD-Qz-fk1">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="yrc-KE-ABi">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNe-v1-Rob">
-                                <rect key="frame" x="0.0" y="191" width="428" height="506"/>
+                                <rect key="frame" x="0.0" y="160" width="320" height="212"/>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yo-5D-nvB">
-                                <rect key="frame" x="0.0" y="705" width="428" height="100"/>
+                                <rect key="frame" x="0.0" y="380" width="320" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Services by Experienced Professionals" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NnE-Tf-8hI" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="0.0" width="388" height="18.666666666666668"/>
+                                        <rect key="frame" x="20" y="0.0" width="280" height="19"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
                                         <color key="textColor" red="0.0039215686269999999" green="0.074509803920000006" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -1158,12 +1158,12 @@
                                 </constraints>
                             </view>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="KQ9-aq-Kat">
-                                <rect key="frame" x="157.66666666666666" y="805" width="112.66666666666666" height="25"/>
+                                <rect key="frame" x="102.5" y="480" width="115.5" height="26"/>
                                 <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="currentPageIndicatorTintColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pageControl>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xgu-94-cAO" customClass="ButtonSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="830" width="428" height="42"/>
+                                <rect key="frame" x="0.0" y="506" width="320" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="hFO-kp-1BQ"/>
                                 </constraints>
@@ -1177,7 +1177,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZ3-OD-LjW" customClass="ButtonSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                <rect key="frame" x="358" y="108" width="50" height="42"/>
+                                <rect key="frame" x="254" y="64" width="50" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="ntN-Xm-93e"/>
                                     <constraint firstAttribute="width" constant="50" id="r5b-M2-Cw2"/>
@@ -1192,7 +1192,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="7gQ-X9-n4V">
-                                <rect key="frame" x="133.66666666666666" y="114" width="160.99999999999997" height="27"/>
+                                <rect key="frame" x="40" y="70" width="240.5" height="40"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4Rp-Md-0Qf"/>
@@ -1238,14 +1238,14 @@
             <objects>
                 <viewController storyboardIdentifier="Forgot" id="dyr-li-ZWm" customClass="Forgot" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gQj-7X-qdL">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="rQU-Fq-FCW">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Re6-eS-Ody">
-                                <rect key="frame" x="139" y="40" width="150" height="30"/>
+                                <rect key="frame" x="85" y="40" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="CjB-gI-Hr2"/>
                                     <constraint firstAttribute="height" constant="30" id="ant-cO-r4E"/>
@@ -1265,16 +1265,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reset your password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9Z-Cu-Oov">
-                                <rect key="frame" x="20" y="101" width="388" height="38.666666666666657"/>
+                                <rect key="frame" x="20" y="101" width="280" height="38.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kto-7g-V1A" customClass="TextFieldView" customModule="EtisalatTravel" customModuleProvider="target">
-                                <rect key="frame" x="21.333333333333343" y="179.66666666666666" width="385.33333333333326" height="50"/>
+                                <rect key="frame" x="16" y="179.5" width="288" height="50"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oEf-Xz-iUG">
-                                        <rect key="frame" x="0.0" y="0.0" width="385.33333333333331" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -1289,7 +1289,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oP2-xi-Bwz">
-                                        <rect key="frame" x="10" y="2" width="373.33333333333331" height="46"/>
+                                        <rect key="frame" x="10" y="2" width="276" height="46"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -1311,7 +1311,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2y-as-qFE">
-                                <rect key="frame" x="21.333333333333343" y="259.66666666666669" width="385.33333333333326" height="50"/>
+                                <rect key="frame" x="16" y="259.5" width="288" height="50"/>
                                 <color key="backgroundColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="QVH-ex-rS8"/>
@@ -1365,7 +1365,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ewi-fo-Hp7" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" id="8UQ-dH-jmh">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1382,44 +1382,44 @@
             <objects>
                 <viewController id="PWG-tv-Fjh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U98-3N-QiX">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Wq-Kx-fP9">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="-44" width="320" height="646"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5y2-nv-skf">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="2142"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2142"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9l4-9U-SWR">
-                                                <rect key="frame" x="0.0" y="0.0" width="428" height="350"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="350"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6CG-1f-SVK">
-                                                        <rect key="frame" x="15" y="0.0" width="398" height="342"/>
+                                                        <rect key="frame" x="15" y="0.0" width="290" height="342"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2b-DB-0ea">
-                                                                <rect key="frame" x="0.0" y="15" width="398" height="327"/>
+                                                                <rect key="frame" x="0.0" y="15" width="290" height="327"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SY8-zf-UUV">
-                                                                        <rect key="frame" x="0.0" y="25" width="398" height="302"/>
+                                                                        <rect key="frame" x="0.0" y="25" width="290" height="302"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mee-6l-tVu">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="398" height="80"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="290" height="80"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MERHABA MOBILE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9j-6F-yFN">
-                                                                                        <rect key="frame" x="20" y="20" width="358" height="17"/>
+                                                                                        <rect key="frame" x="20" y="20" width="250" height="17"/>
                                                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="United Arab Emirates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRu-WC-cKD">
-                                                                                        <rect key="frame" x="20" y="40" width="358" height="14.333333333333336"/>
+                                                                                        <rect key="frame" x="20" y="40" width="250" height="14.5"/>
                                                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vd1-Fo-xhN">
-                                                                                        <rect key="frame" x="0.0" y="79" width="398" height="1"/>
+                                                                                        <rect key="frame" x="0.0" y="79" width="290" height="1"/>
                                                                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="height" constant="1" id="OdR-m3-duN"/>
@@ -1441,23 +1441,23 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Yl-h8-yUF">
-                                                                                <rect key="frame" x="0.0" y="80" width="398" height="65"/>
+                                                                                <rect key="frame" x="0.0" y="80" width="290" height="65"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dataIcon" translatesAutoresizingMaskIntoConstraints="NO" id="K79-vM-OSu">
-                                                                                        <rect key="frame" x="20" y="22.666666666666657" width="20" height="20"/>
+                                                                                        <rect key="frame" x="20" y="22.5" width="20" height="20"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="width" constant="20" id="uri-48-ch4"/>
                                                                                             <constraint firstAttribute="height" constant="20" id="vs8-wH-itb"/>
                                                                                         </constraints>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DATA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPK-fh-ayC">
-                                                                                        <rect key="frame" x="60" y="25.333333333333339" width="245" height="14.333333333333332"/>
+                                                                                        <rect key="frame" x="60" y="25.5" width="137" height="14.5"/>
                                                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 GB" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knf-KB-KqM">
-                                                                                        <rect key="frame" x="313" y="21.666666666666657" width="65" height="21.666666666666671"/>
+                                                                                        <rect key="frame" x="205" y="22" width="65" height="21.5"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="width" constant="65" id="5Jq-Oc-1ic"/>
                                                                                         </constraints>
@@ -1466,7 +1466,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W7n-Pr-cSm">
-                                                                                        <rect key="frame" x="0.0" y="64" width="398" height="1"/>
+                                                                                        <rect key="frame" x="0.0" y="64" width="290" height="1"/>
                                                                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="height" constant="1" id="j02-eb-DMo"/>
@@ -1489,10 +1489,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lh6-aN-rBi">
-                                                                                <rect key="frame" x="0.0" y="145" width="398" height="65"/>
+                                                                                <rect key="frame" x="0.0" y="145" width="290" height="65"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bWf-dP-Qzh">
-                                                                                        <rect key="frame" x="20" y="24.333333333333321" width="20" height="17.000000000000007"/>
+                                                                                        <rect key="frame" x="20" y="23.5" width="20" height="17.5"/>
                                                                                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="width" constant="20" id="2h2-pY-NBW"/>
@@ -1500,20 +1500,20 @@
                                                                                         </constraints>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VALIDITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j46-de-jlh">
-                                                                                        <rect key="frame" x="60" y="25.333333333333339" width="215" height="14.333333333333332"/>
+                                                                                        <rect key="frame" x="60" y="25.5" width="107" height="14.5"/>
                                                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dlu-er-03F">
-                                                                                        <rect key="frame" x="0.0" y="64" width="398" height="1"/>
+                                                                                        <rect key="frame" x="0.0" y="64" width="290" height="1"/>
                                                                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="height" constant="1" id="wpB-sm-YmI"/>
                                                                                         </constraints>
                                                                                     </imageView>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7 Days" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBU-r9-we2">
-                                                                                        <rect key="frame" x="283" y="21.666666666666657" width="95" height="21.666666666666671"/>
+                                                                                        <rect key="frame" x="175" y="22" width="95" height="21.5"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="width" constant="95" id="reJ-cd-2Gp"/>
                                                                                         </constraints>
@@ -1538,10 +1538,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lea-N1-QDW">
-                                                                                <rect key="frame" x="0.0" y="210" width="398" height="92"/>
+                                                                                <rect key="frame" x="0.0" y="210" width="290" height="92"/>
                                                                                 <subviews>
                                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scn-Iw-HqP">
-                                                                                        <rect key="frame" x="15" y="15" width="368" height="62"/>
+                                                                                        <rect key="frame" x="15" y="15" width="260" height="62"/>
                                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -1570,7 +1570,7 @@
                                                                 </constraints>
                                                             </view>
                                                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YMn-Nl-oA8">
-                                                                <rect key="frame" x="268" y="0.0" width="120" height="80"/>
+                                                                <rect key="frame" x="160" y="0.0" width="120" height="80"/>
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marahabaCard" translatesAutoresizingMaskIntoConstraints="NO" id="mgv-ND-6H2">
                                                                         <rect key="frame" x="0.0" y="0.0" width="120" height="80"/>
@@ -1607,13 +1607,13 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="97o-G8-Hlq">
-                                                <rect key="frame" x="0.0" y="350" width="428" height="896"/>
+                                                <rect key="frame" x="0.0" y="350" width="320" height="896"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mhf-fZ-Uf9">
-                                                        <rect key="frame" x="10.666666666666657" y="10" width="406.66666666666674" height="80"/>
+                                                        <rect key="frame" x="8" y="10" width="304" height="80"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eet-eE-hK0">
-                                                                <rect key="frame" x="10" y="10" width="396.66666666666669" height="60"/>
+                                                                <rect key="frame" x="10" y="10" width="294" height="60"/>
                                                                 <string key="text">7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days7 Days</string>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1639,7 +1639,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NRS-Hs-Gl7">
-                                                <rect key="frame" x="0.0" y="1246" width="428" height="896"/>
+                                                <rect key="frame" x="0.0" y="1246" width="320" height="896"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="896" id="pf8-s0-i54"/>
@@ -1678,21 +1678,21 @@
             <objects>
                 <viewController storyboardIdentifier="SignUp" id="EDM-1E-oPe" customClass="SignUp" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F1N-l6-L65">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="bMR-G2-cMW">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="XII-4N-LWa">
-                                <rect key="frame" x="139" y="84" width="150" height="30"/>
+                                <rect key="frame" x="85" y="40" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="KO0-5D-vMR"/>
                                     <constraint firstAttribute="width" constant="150" id="yxa-7f-4Mh"/>
                                 </constraints>
                             </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQa-Yq-VXL">
-                                <rect key="frame" x="20" y="88" width="30" height="22"/>
+                                <rect key="frame" x="20" y="44" width="30" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Ntb-Ux-RNj"/>
                                     <constraint firstAttribute="height" constant="22" id="WRL-1u-6sp"/>
@@ -1704,19 +1704,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create New Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcH-CG-T2n">
-                                <rect key="frame" x="20" y="145" width="388" height="38.333333333333343"/>
+                                <rect key="frame" x="20" y="101" width="280" height="38.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fTY-iy-Tbe">
-                                <rect key="frame" x="21.333333333333343" y="223.33333333333337" width="385.33333333333326" height="190"/>
+                                <rect key="frame" x="16" y="179.5" width="288" height="190"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4W-Db-a1M" customClass="TextFieldView" customModule="EtisalatTravel" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="385.33333333333331" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ihk-Dy-CM9">
-                                                <rect key="frame" x="0.0" y="0.0" width="385.33333333333331" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -1731,7 +1731,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3fc-LH-3m1">
-                                                <rect key="frame" x="10" y="2" width="373.33333333333331" height="46"/>
+                                                <rect key="frame" x="10" y="2" width="276" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <connections>
@@ -1753,10 +1753,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g67-4s-vat" customClass="TextFieldView" customModule="EtisalatTravel" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="69.999999999999972" width="385.33333333333331" height="50"/>
+                                        <rect key="frame" x="0.0" y="70" width="288" height="50"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wU7-qG-Be2">
-                                                <rect key="frame" x="0.0" y="0.0" width="385.33333333333331" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -1771,7 +1771,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JuC-hD-dnX">
-                                                <rect key="frame" x="10" y="2" width="373.33333333333331" height="46"/>
+                                                <rect key="frame" x="10" y="2" width="276" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <connections>
@@ -1793,10 +1793,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gs-lb-Yf7" customClass="TextFieldView" customModule="EtisalatTravel" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="139.99999999999997" width="385.33333333333331" height="50"/>
+                                        <rect key="frame" x="0.0" y="140" width="288" height="50"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eov-mh-N4L">
-                                                <rect key="frame" x="0.0" y="0.0" width="385.33333333333331" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -1811,7 +1811,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kt5-q4-moL">
-                                                <rect key="frame" x="10" y="2" width="373.33333333333331" height="46"/>
+                                                <rect key="frame" x="10" y="2" width="276" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                 <connections>
@@ -1835,7 +1835,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIh-fx-Bg8">
-                                <rect key="frame" x="21.333333333333343" y="443.33333333333331" width="385.33333333333326" height="50"/>
+                                <rect key="frame" x="16" y="399.5" width="288" height="50"/>
                                 <color key="backgroundColor" red="0.81960784313725488" green="0.22352941176470587" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="2eh-3a-O7f"/>
@@ -1850,13 +1850,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kee-HT-qie">
-                                <rect key="frame" x="101.33333333333333" y="503.33333333333331" width="165.66666666666669" height="16.999999999999943"/>
+                                <rect key="frame" x="47.5" y="459.5" width="165.5" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXQ-OO-lHb">
-                                <rect key="frame" x="275" y="497.33333333333331" width="48" height="28.999999999999943"/>
+                                <rect key="frame" x="221" y="453.5" width="48" height="29"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="LOG IN">
@@ -1913,14 +1913,14 @@
             <objects>
                 <viewController id="NS3-Ut-mB5" customClass="SignIn" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xud-g1-Ztm">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="iZz-8J-fbf">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="bbS-Qc-zDo">
-                                <rect key="frame" x="139" y="40" width="150" height="30"/>
+                                <rect key="frame" x="85" y="40" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Pkd-Nf-mMH"/>
                                     <constraint firstAttribute="width" constant="150" id="gEN-bt-NFC"/>
@@ -1940,19 +1940,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvT-KH-Lv0">
-                                <rect key="frame" x="20" y="101" width="388" height="38.333333333333343"/>
+                                <rect key="frame" x="20" y="101" width="280" height="38.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="PxP-XD-YmB">
-                                <rect key="frame" x="21.333333333333343" y="179.33333333333334" width="385.33333333333326" height="120.00000000000003"/>
+                                <rect key="frame" x="16" y="179.5" width="288" height="120"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qGC-W7-bJn" customClass="TextFieldView" customModule="EtisalatTravel" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="385.33333333333331" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RVa-Pa-1xo">
-                                                <rect key="frame" x="0.0" y="0.0" width="385.33333333333331" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -1967,7 +1967,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mwj-7w-Mjd">
-                                                <rect key="frame" x="10" y="2" width="373.33333333333331" height="46"/>
+                                                <rect key="frame" x="10" y="2" width="276" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -1986,10 +1986,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4KS-CT-z2B" customClass="TextFieldView" customModule="EtisalatTravel" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="70" width="385.33333333333331" height="50"/>
+                                        <rect key="frame" x="0.0" y="70" width="288" height="50"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nco-mx-APk">
-                                                <rect key="frame" x="0.0" y="0.0" width="385.33333333333331" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -2004,7 +2004,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vHV-2n-Byw">
-                                                <rect key="frame" x="10" y="2" width="373.33333333333331" height="46"/>
+                                                <rect key="frame" x="10" y="2" width="276" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                             </textField>
@@ -2025,7 +2025,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anc-0K-FcR">
-                                <rect key="frame" x="21.333333333333343" y="374.33333333333331" width="385.33333333333326" height="50"/>
+                                <rect key="frame" x="16" y="374.5" width="288" height="50"/>
                                 <color key="backgroundColor" red="0.81960784313725488" green="0.22352941176470587" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Pxp-1k-Tud"/>
@@ -2040,7 +2040,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jd8-rL-IzH">
-                                <rect key="frame" x="266" y="307.33333333333331" width="142" height="27"/>
+                                <rect key="frame" x="158" y="307.5" width="142" height="27"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Forgot your passsword?">
@@ -2052,7 +2052,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nQ-Js-AKM">
-                                <rect key="frame" x="20" y="444.33333333333331" width="388" height="29"/>
+                                <rect key="frame" x="20" y="444.5" width="280" height="29"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="SIGN UP">
@@ -2110,20 +2110,20 @@
             <objects>
                 <viewController storyboardIdentifier="PayNow" id="vCS-dU-Ie8" customClass="PayNow" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j7p-Rs-WVn">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="19k-cJ-2yl">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DUx-37-Zpa">
-                                <rect key="frame" x="0.0" y="64" width="428" height="808"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="528"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fd2-VY-dcX">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
                                         <subviews>
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular Countries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abw-5b-hCE" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="0.0" width="388" height="0.0"/>
+                                                <rect key="frame" x="20" y="0.0" width="280" height="0.0"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" id="nvG-Xr-F4w"/>
                                                 </constraints>
@@ -2141,10 +2141,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3mC-h4-qPz">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Rjz-du-z2Y">
-                                                <rect key="frame" x="0.0" y="7" width="428" height="30"/>
+                                                <rect key="frame" x="0.0" y="7" width="320" height="30"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="Xa4-Pj-L7G"/>
@@ -2186,16 +2186,16 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7X0-1p-Xef">
-                                        <rect key="frame" x="0.0" y="44" width="428" height="80"/>
+                                        <rect key="frame" x="0.0" y="44" width="320" height="80"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Muhammad!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tis-eD-wow" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="20" width="388" height="15.666666666666664"/>
+                                                <rect key="frame" x="20" y="20" width="280" height="10"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
                                                 <color key="textColor" red="0.90588235289999997" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore data packs for 190+ destinations and regions" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CU1-3b-68J" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="38.666666666666657" width="388" height="21.333333333333329"/>
+                                                <rect key="frame" x="20" y="33" width="280" height="27"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2213,7 +2213,7 @@
                                         </constraints>
                                     </view>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="CiX-10-8v8">
-                                        <rect key="frame" x="0.0" y="124" width="428" height="684"/>
+                                        <rect key="frame" x="0.0" y="124" width="320" height="404"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="dataSource" destination="vCS-dU-Ie8" id="GzK-Mt-S1h"/>
@@ -2255,14 +2255,14 @@
             <objects>
                 <viewController storyboardIdentifier="ApplePay" id="30W-Zj-HKF" customClass="ApplePay" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XdR-6X-7Si">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hcK-gI-sGZ">
-                                <rect key="frame" x="0.0" y="362" width="428" height="500"/>
+                                <rect key="frame" x="0.0" y="362" width="320" height="500"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="D6e-lu-55g" customClass="TableViewContentSized" customModule="EtisalatTravel" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="79" width="428" height="421"/>
+                                        <rect key="frame" x="0.0" y="79" width="320" height="421"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="dataSource" destination="30W-Zj-HKF" id="GS4-2c-LoA"/>
@@ -2270,7 +2270,7 @@
                                         </connections>
                                     </tableView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jxv-O1-ec8">
-                                        <rect key="frame" x="8" y="70" width="420" height="1"/>
+                                        <rect key="frame" x="8" y="70" width="312" height="1"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="7Xe-A4-LCA"/>
@@ -2290,7 +2290,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5E-KQ-AN2">
-                                        <rect key="frame" x="360" y="25" width="48" height="30"/>
+                                        <rect key="frame" x="252" y="25" width="48" height="30"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Cancel"/>
                                         <connections>
@@ -2339,29 +2339,29 @@
             <objects>
                 <viewController storyboardIdentifier="ThankYou" id="1gk-qR-faM" customClass="ThankYou" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="frz-gU-eP4">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="WNM-Op-1TC">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UWN-jQ-L02">
-                                <rect key="frame" x="0.0" y="74" width="428" height="150"/>
+                                <rect key="frame" x="0.0" y="30" width="320" height="150"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PKg-GZ-7dx">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="150"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37S-p8-4Vx">
-                                                <rect key="frame" x="0.0" y="0.0" width="428" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KU1-E0-pdm">
-                                                        <rect key="frame" x="0.0" y="0.0" width="428" height="80"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vy-tD-VJs">
-                                                                <rect key="frame" x="0.0" y="0.0" width="214" height="80"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="160" height="80"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9h-J6-5m4">
-                                                                        <rect key="frame" x="20" y="17.666666666666671" width="65" height="45"/>
+                                                                        <rect key="frame" x="20" y="17.5" width="65" height="45"/>
                                                                         <subviews>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marahabaCard" translatesAutoresizingMaskIntoConstraints="NO" id="iB7-VI-GNn">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="65" height="45"/>
@@ -2383,13 +2383,13 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Merhaba" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grs-WF-YH6" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="90" y="25.333333333333332" width="49.666666666666657" height="13.666666666666668"/>
+                                                                        <rect key="frame" x="90" y="25.5" width="49.5" height="13.5"/>
                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turkey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z46-WC-wRa" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="90" y="44" width="30.333333333333329" height="11.333333333333336"/>
+                                                                        <rect key="frame" x="90" y="44" width="30.5" height="11.5"/>
                                                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -2406,19 +2406,19 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gQR-kf-VWN">
-                                                                <rect key="frame" x="214" y="0.0" width="214" height="80"/>
+                                                                <rect key="frame" x="160" y="0.0" width="160" height="80"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IJI-2h-mAi">
-                                                                        <rect key="frame" x="0.0" y="20" width="214" height="40"/>
+                                                                        <rect key="frame" x="0.0" y="20" width="160" height="40"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRICE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q00-qa-SFe" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="214" height="20"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="160" height="20"/>
                                                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="US$4.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnb-a7-f3S" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="20" width="214" height="20"/>
+                                                                                <rect key="frame" x="0.0" y="20" width="160" height="20"/>
                                                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
                                                                                 <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <nil key="highlightedColor"/>
@@ -2451,13 +2451,13 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CpR-Wv-Fms" customClass="GradientView" customModule="EtisalatTravel" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="80" width="428" height="70"/>
+                                                <rect key="frame" x="0.0" y="80" width="320" height="70"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="56F-4g-fIq">
-                                                        <rect key="frame" x="20" y="0.0" width="388" height="70"/>
+                                                        <rect key="frame" x="20" y="0.0" width="280" height="70"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h1c-kX-707">
-                                                                <rect key="frame" x="0.0" y="0.0" width="188.66666666666666" height="70"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="134.5" height="70"/>
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dataIconWhite" translatesAutoresizingMaskIntoConstraints="NO" id="up3-fb-ztg">
                                                                         <rect key="frame" x="0.0" y="25" width="20" height="20"/>
@@ -2467,7 +2467,7 @@
                                                                         </constraints>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1GB Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybZ-VS-8KZ" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="28.000000000000004" y="28.333333333333346" width="54.333333333333343" height="13.666666666666668"/>
+                                                                        <rect key="frame" x="28" y="28.5" width="54.5" height="13.5"/>
                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -2482,10 +2482,10 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="upN-rw-s7x">
-                                                                <rect key="frame" x="199.66666666666663" y="0.0" width="188.33333333333337" height="70"/>
+                                                                <rect key="frame" x="145.5" y="0.0" width="134.5" height="70"/>
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="awF-TR-vfE">
-                                                                        <rect key="frame" x="0.0" y="23.666666666666657" width="25" height="23.666666666666671"/>
+                                                                        <rect key="frame" x="0.0" y="23" width="25" height="24"/>
                                                                         <color key="tintColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="25" id="NUW-yd-VKU"/>
@@ -2493,7 +2493,7 @@
                                                                         </constraints>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7 Days Validity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uw6-uJ-F6C" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="32.999999999999993" y="28.333333333333346" width="84.333333333333314" height="13.666666666666668"/>
+                                                                        <rect key="frame" x="33" y="28.5" width="84.5" height="13.5"/>
                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -2552,28 +2552,28 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDn-8f-1Ae">
-                                <rect key="frame" x="0.0" y="224" width="428" height="430"/>
+                                <rect key="frame" x="0.0" y="180" width="320" height="430"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="successNew" translatesAutoresizingMaskIntoConstraints="NO" id="fCV-MR-CKq">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="300"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="Juv-kO-jr4"/>
                                         </constraints>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="AmY-dK-eyr">
-                                        <rect key="frame" x="141" y="300" width="146" height="51"/>
+                                        <rect key="frame" x="87" y="300" width="146.5" height="51"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cor-3t-DR9">
-                                                <rect key="frame" x="0.0" y="0.0" width="146" height="19.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="146.5" height="19.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chc-ad-L4i" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="79.333333333333329" height="19.333333333333332"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="79.5" height="19.5"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                                         <color key="textColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="highlightedColor" systemColor="systemGreenColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" for buying" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZF-7I-P3K" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                        <rect key="frame" x="79.333333333333343" y="0.0" width="66.666666666666657" height="19.333333333333332"/>
+                                                        <rect key="frame" x="79.5" y="0.0" width="67" height="19.5"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                         <color key="textColor" red="0.2784313725" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="highlightedColor" systemColor="systemGreenColor"/>
@@ -2581,10 +2581,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0h2-Vf-bee">
-                                                <rect key="frame" x="0.0" y="19.333333333333371" width="146" height="31.666666666666671"/>
+                                                <rect key="frame" x="0.0" y="19.5" width="146.5" height="31.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="our packag." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xz-Er-dEq" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="146" height="31.666666666666668"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="146.5" height="31.5"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                         <color key="textColor" red="0.2784313725" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="highlightedColor" systemColor="systemGreenColor"/>
@@ -2594,7 +2594,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JSa-Gb-iTn">
-                                        <rect key="frame" x="25" y="365" width="378" height="45"/>
+                                        <rect key="frame" x="25" y="365" width="270" height="45"/>
                                         <color key="backgroundColor" red="0.81960784310000001" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="h2V-Cq-HEn"/>
@@ -2660,8 +2660,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Background" width="428" height="926"/>
-        <image name="Logo" width="160.33332824707031" height="26.666666030883789"/>
+        <image name="Background" width="642" height="1389"/>
+        <image name="Logo" width="240.5" height="40"/>
         <image name="apple" width="100" height="100"/>
         <image name="backArrow" width="512" height="512"/>
         <image name="backGroundWhite" width="1284" height="2778"/>

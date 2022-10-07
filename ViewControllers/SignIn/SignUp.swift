@@ -43,8 +43,8 @@ class SignUp: UIViewController {
             if let encoded = try? JSONEncoder().encode(arrayUsers) {
                 defaults.set(encoded, forKey: "modelUser")
             }
-            showAlert(message: "User register sucessfully, please login")
-
+//            showAlert(message: "User register sucessfully, please login")
+            self.pushToRootVC(toStoryboard: .main, toVC: Dashboard.self)
         }
         
         
