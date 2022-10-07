@@ -10,16 +10,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="840" id="KGk-i7-Jjw" customClass="DataUsageCell" customModule="EtisalatTravel" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="840" id="KGk-i7-Jjw" customClass="DataUsageCell" customModule="EtisalatTravel" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="840"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="840"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backGroundWhite" translatesAutoresizingMaskIntoConstraints="NO" id="chF-BB-h2r">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="840"/>
-                    </imageView>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uBH-Id-Adj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="840"/>
                         <subviews>
@@ -629,18 +626,16 @@
                         </constraints>
                     </stackView>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="chF-BB-h2r" secondAttribute="bottom" id="7c1-JB-s6r"/>
                     <constraint firstAttribute="trailing" secondItem="uBH-Id-Adj" secondAttribute="trailing" id="9cn-Ef-nBC"/>
                     <constraint firstAttribute="bottom" secondItem="uBH-Id-Adj" secondAttribute="bottom" id="OLF-2Q-rYd"/>
                     <constraint firstItem="uBH-Id-Adj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="RnK-eT-4aB"/>
-                    <constraint firstAttribute="trailing" secondItem="chF-BB-h2r" secondAttribute="trailing" id="Yg5-eu-eQY"/>
                     <constraint firstItem="uBH-Id-Adj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="aOu-xv-LPT"/>
-                    <constraint firstItem="chF-BB-h2r" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="r93-So-O47"/>
-                    <constraint firstItem="chF-BB-h2r" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="tm7-Dt-AQi"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="buttonNotActivited" destination="U1D-pX-o0i" id="BbU-VF-de1"/>
                 <outlet property="buttonShowMore" destination="CUP-6G-nNL" id="jzM-PY-3Qi"/>
@@ -658,7 +653,6 @@
     </objects>
     <resources>
         <image name="Logo" width="240.5" height="40"/>
-        <image name="backGroundWhite" width="1284" height="2778"/>
         <image name="marahabaCard" width="285" height="183"/>
         <image name="plus" width="147" height="144"/>
         <image name="ring" width="297" height="295"/>

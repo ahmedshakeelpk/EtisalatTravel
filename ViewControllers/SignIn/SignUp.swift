@@ -29,13 +29,22 @@ class SignUp: UIViewController {
                let modelUser = try? JSONDecoder().decode([ModelUser].self, from: data) {
                 arrayUsers = modelUser
             }
+            let user = arrayUsers.filter({user in
+                user.email?.lowercased() == textFieldEmail.text?.lowercased()
+            })
             
+            if user.count > 0 {
+                showAlert(message: "User already exist")
+                return
+            }
             
             let modelUser = ModelUser(name: textFieldName.text!, email:  textFieldEmail.text!, password: textFieldPassword.text!)
             arrayUsers.append(modelUser)
-            if let encoded = try? JSONEncoder().encode(modelUser) {
+            if let encoded = try? JSONEncoder().encode(arrayUsers) {
                 defaults.set(encoded, forKey: "modelUser")
             }
+            showAlert(message: "User register sucessfully, please login")
+
         }
         
         
@@ -57,9 +66,6 @@ class SignUp: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    
-
 }
 extension SignUp: UITextFieldDelegate {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

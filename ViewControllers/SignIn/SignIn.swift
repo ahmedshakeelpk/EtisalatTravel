@@ -48,7 +48,7 @@ class SignIn: UIViewController {
         }
         
         let user = arrayUsers.filter({user in
-            user.email == textFieldEmail.text && user.password == textFieldEmail.text
+            user.email?.lowercased() == textFieldEmail.text?.lowercased() && user.password == textFieldPassword.text
         })
         
         if user.count > 0 {
