@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 let kDefaults = UserDefaults.standard
-let kAppName = "EstisalatTravel"
+let kAppName = ""
 var kAccessToken = ""
 let kCustomerSupportNumber = "8001800"
 let kCustomerSupportNumberToyota = "8001800"

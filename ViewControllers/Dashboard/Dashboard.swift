@@ -235,6 +235,9 @@ extension Dashboard: UITableViewDelegate, UITableViewDataSource {
 }
 
 extension Dashboard: UISearchBarDelegate {
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if segmentControl.selectedSegmentIndex == 0 {
             let searchKeyWordText = textFieldSearch.text!
