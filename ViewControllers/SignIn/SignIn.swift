@@ -8,13 +8,24 @@
 import UIKit
 var defaults = UserDefaults.standard
 
+var modelUser: ModelUser!
+
+
 class SignIn: UIViewController {
 
+    var arrayUsers: [ModelUser]!
+
+    @IBOutlet weak var textFieldEmail: UITextField!
+    @IBOutlet weak var textFieldPassword: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         buttonSignIn.radius(radius: 8)
-
+        
+        if let data = UserDefaults.standard.object(forKey: "modelUser") as? Data,
+           let modelUser = try? JSONDecoder().decode([ModelUser].self, from: data) {
+            arrayUsers = modelUser
+        }
         // Do any additional setup after loading the view.
     }
     @IBOutlet weak var buttonBack: UIButton!
@@ -27,9 +38,26 @@ class SignIn: UIViewController {
     }
     @IBOutlet weak var buttonSignIn: UIButton!
     @IBAction func buttonSignIn(_ sender: Any) {
+        if textFieldEmail.text == "" {
+            showAlert(message: "Please enter email")
+            return
+        }
+        else if textFieldPassword.text == "" {
+            showAlert(message: "Please enter password")
+            return
+        }
         
+        let user = arrayUsers.filter({user in
+            user.email == textFieldEmail.text && user.password == textFieldEmail.text
+        })
         
-        
+        if user.count > 0 {
+            modelUser = user.first
+        }
+        else {
+            showAlert(message: "Email password invalid")
+            return
+        }
         if let isPackageSubscribed = defaults.value(forKey: "isPackageSubscribed") {
             self.pushToVC(toStoryboard: .main, toVC: DataUsage.self) {
                 vc in

@@ -97,14 +97,21 @@ struct ModelCountries: Codable {
 //    let color: UIColor?
 
     
-    enum CodingKeys: String, CodingKey {
-        case countryName
-        case countryFlag
-        case data
-        case validitys
-        case price1
-        case price2
-        case price3
-//        case color
-    }
+//    enum CodingKeys: String, CodingKey {
+//        case countryName
+//        case countryFlag
+//        case data
+//        case validitys
+//        case price1
+//        case price2
+//        case price3
+////        case color
+//    }
+}
+
+
+struct ModelUser: Codable {
+    let name: String?
+    let email: String?
+    let password: String?
 }

@@ -9,12 +9,16 @@ import UIKit
 
 class Forgot: UIViewController {
 
+    @IBOutlet weak var textFieldEmail: UITextField!
     @IBOutlet weak var buttonBack: UIButton!
     @IBAction func buttonBack(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
     @IBOutlet weak var buttonForgot: UIButton!
     @IBAction func buttonForgot(_ sender: Any) {
+        if textFieldEmail.text == "" {
+            showAlert(message: "Please enter email")
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
