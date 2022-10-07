@@ -34,35 +34,33 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="181" height="90"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyD-5r-qOj">
-                                                                <rect key="frame" x="20" y="22.5" width="65" height="45"/>
+                                                                <rect key="frame" x="20" y="20" width="70" height="50"/>
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marahabaCard" translatesAutoresizingMaskIntoConstraints="NO" id="IkO-ru-MJO">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="65" height="45"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="70" height="50"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <constraints>
-                                                                            <constraint firstAttribute="width" constant="65" id="lka-Gt-dZm"/>
-                                                                            <constraint firstAttribute="height" constant="45" id="veQ-mj-sMG"/>
+                                                                            <constraint firstAttribute="width" constant="70" id="lka-Gt-dZm"/>
+                                                                            <constraint firstAttribute="height" constant="50" id="veQ-mj-sMG"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                 </subviews>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstItem="IkO-ru-MJO" firstAttribute="leading" secondItem="vyD-5r-qOj" secondAttribute="leading" id="Lj1-II-S3k"/>
-                                                                    <constraint firstAttribute="height" constant="45" id="P57-gR-afe"/>
                                                                     <constraint firstAttribute="bottom" secondItem="IkO-ru-MJO" secondAttribute="bottom" id="UGM-Yp-rOL"/>
-                                                                    <constraint firstAttribute="width" constant="65" id="mZH-J5-BHH"/>
                                                                     <constraint firstAttribute="trailing" secondItem="IkO-ru-MJO" secondAttribute="trailing" id="uyN-K3-pAi"/>
                                                                     <constraint firstItem="IkO-ru-MJO" firstAttribute="top" secondItem="vyD-5r-qOj" secondAttribute="top" id="xeh-z4-doA"/>
                                                                 </constraints>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Merhaba" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTc-S7-H17" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                <rect key="frame" x="90" y="30.5" width="49.5" height="13.5"/>
+                                                                <rect key="frame" x="95" y="30.5" width="49.5" height="13.5"/>
                                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turkey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dz4-pb-Ekp" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                <rect key="frame" x="90" y="49" width="30.5" height="11.5"/>
+                                                                <rect key="frame" x="95" y="49" width="30.5" height="11.5"/>
                                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -82,16 +80,16 @@
                                                         <rect key="frame" x="181" y="0.0" width="181" height="90"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2wU-Wx-HWD">
-                                                                <rect key="frame" x="0.0" y="25" width="181" height="40"/>
+                                                                <rect key="frame" x="0.0" y="25" width="161" height="40"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRICE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEh-kB-Pgj" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="181" height="20"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRICE" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEh-kB-Pgj" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="161" height="20"/>
                                                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="US$4.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvV-Kn-51a" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="20" width="181" height="20"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="US$4.50" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvV-Kn-51a" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="20" width="161" height="20"/>
                                                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
                                                                         <color key="textColor" red="0.2666666667" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -100,12 +98,14 @@
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="40" id="7GX-06-qd1"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="tvV-Kn-51a" secondAttribute="trailing" id="Bi2-hV-5r1"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="tEh-kB-Pgj" secondAttribute="trailing" id="ucE-pD-dhr"/>
                                                                 </constraints>
                                                             </stackView>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="2wU-Wx-HWD" secondAttribute="trailing" id="aej-6b-glC"/>
+                                                            <constraint firstAttribute="trailing" secondItem="2wU-Wx-HWD" secondAttribute="trailing" constant="20" id="aej-6b-glC"/>
                                                             <constraint firstItem="2wU-Wx-HWD" firstAttribute="leading" secondItem="g9K-9H-pkp" secondAttribute="leading" id="bJL-sf-yIO"/>
                                                             <constraint firstItem="2wU-Wx-HWD" firstAttribute="centerY" secondItem="g9K-9H-pkp" secondAttribute="centerY" id="nxg-QZ-wC9"/>
                                                         </constraints>
@@ -211,7 +211,7 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pZM-Te-sbJ">
                                                                 <rect key="frame" x="48" y="0.0" width="132" height="30"/>
                                                             </stackView>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select" translatesAutoresizingMaskIntoConstraints="NO" id="zQe-ks-Gk1">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unselect" translatesAutoresizingMaskIntoConstraints="NO" id="zQe-ks-Gk1">
                                                                 <rect key="frame" x="20" y="5" width="20" height="20"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="20" id="D57-WR-p2c"/>
@@ -230,7 +230,7 @@
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3f-72-wbN">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3f-72-wbN">
                                                                 <rect key="frame" x="0.0" y="0.0" width="362" height="30"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <connections>
@@ -314,14 +314,14 @@
                 <outlet property="viewAgree" destination="3NU-tT-UvZ" id="dAg-CQ-OZL"/>
                 <outlet property="viewBackgGround" destination="p6c-iz-vyp" id="mKR-Yr-p77"/>
             </connections>
-            <point key="canvasLocation" x="162.31884057971016" y="101.45089285714285"/>
+            <point key="canvasLocation" x="299" y="101"/>
         </tableViewCell>
     </objects>
     <resources>
         <image name="clock.fill" catalog="system" width="128" height="121"/>
         <image name="dataIconWhite" width="100" height="100"/>
         <image name="marahabaCard" width="285" height="183"/>
-        <image name="select" width="24" height="24"/>
+        <image name="unselect" width="61" height="63"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
