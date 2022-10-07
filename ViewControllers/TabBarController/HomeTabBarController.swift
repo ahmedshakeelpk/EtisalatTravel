@@ -45,32 +45,52 @@ class HomeTabBarController: UITabBarController, UITabBarControllerDelegate {
         UITabBarItem.appearance().setTitleTextAttributes([.font: UIFont.systemFont(ofSize: 14) ], for: .selected)
         UITabBarItem.appearance().titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -8)
 
-        guard let homeVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
-
-        let homeNav = UINavigationController(rootViewController: homeVC)
-        homeNav.tabBarItem = UITabBarItem(title: "Shop", image: UIImage(named: "Shop-gray"), selectedImage: UIImage(named: "Shop"))
         
-        
-        guard let shopVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
-
-        let shopNav = UINavigationController(rootViewController: shopVC)
-        shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
-        
-        
-        guard let profileVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
-
-        let profileNav = UINavigationController(rootViewController: profileVC)
-        profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
-
-
-        let controllers = [homeNav, shopNav, profileNav]
-        self.viewControllers = controllers
-
-        self.selectedIndex = 0
         
         if let cornerTabBar = self.tabBar as? TabBarWithCorners {
             cornerTabBar.refreshCorner(radius:0)
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        guard let dashboardVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
+        
+        guard let dataUsageVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DataUsage") as? DataUsage else {return}
+
+
+        
+        if let isPackageSubscribed = defaults.value(forKey: "isPackageSubscribed") {
+            let homeNav = UINavigationController(rootViewController: dataUsageVC)
+            homeNav.tabBarItem = UITabBarItem(title: "Shop", image: UIImage(named: "Shop-gray"), selectedImage: UIImage(named: "Shop"))
+
+            let shopNav = UINavigationController(rootViewController: dataUsageVC)
+            shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
+
+            let profileNav = UINavigationController(rootViewController: dataUsageVC)
+            profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
+            
+            let controllers = [homeNav, shopNav, profileNav]
+            self.viewControllers = controllers
+        }else {
+            dashboardVC.isFromLoginScreen = true
+            let homeNav = UINavigationController(rootViewController: dashboardVC)
+            homeNav.tabBarItem = UITabBarItem(title: "Shop", image: UIImage(named: "Shop-gray"), selectedImage: UIImage(named: "Shop"))
+
+            let shopNav = UINavigationController(rootViewController: dashboardVC)
+            shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
+
+            let profileNav = UINavigationController(rootViewController: dashboardVC)
+            profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
+            
+            let controllers = [homeNav, shopNav, profileNav]
+            self.viewControllers = controllers
+        }
+
+        
+
+        self.selectedIndex = 0
     }
 }
 
