@@ -88,6 +88,9 @@ class WalkThroughs: UIViewController, UIScrollViewDelegate {
     
     
     @IBAction func buttonNext(_ sender: Any) {
+        self.pushToVC(toStoryboard: .main, toVC: SignUp.self)
+
+        return()
         let pageNumber = scrollView.contentOffset.x / scrollView.frame.size.width
         let index = Int(pageNumber)+1
         if index > 2 {
@@ -130,6 +133,13 @@ class WalkThroughs: UIViewController, UIScrollViewDelegate {
         let pageNumber = scrollView.contentOffset.x / scrollView.frame.size.width
         pageControl.currentPage = Int(pageNumber)
         labelDescription.text = arrDescriptions[Int(pageNumber)]
+        if Int(pageNumber) > 1 {
+            buttonNext.setTitle("FINISH", for: .normal)
+        }
+        else {
+            buttonNext.setTitle("SKIP", for: .normal)
+        }
+        
 //        lblTitle.text = self.arrTitle[Int(pageNumber)]
 //        lblDescription.text = self.arrDescriptions[Int(pageNumber)]
 //        btnSkipStart.setTitle(arrButtonName[Int(pageNumber)], for: .normal)

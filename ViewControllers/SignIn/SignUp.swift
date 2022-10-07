@@ -20,8 +20,8 @@ class SignUp: UIViewController {
         else if textFieldEmail.text == "" {
             showAlert(message: "Please enter email")
         }
-        else if textFieldEmail.text == "" {
-            showAlert(message: "Please enter email")
+        else if textFieldPassword.text == "" {
+            showAlert(message: "Please enter password")
         }
         else {
             
@@ -43,6 +43,8 @@ class SignUp: UIViewController {
             if let encoded = try? JSONEncoder().encode(arrayUsers) {
                 defaults.set(encoded, forKey: "modelUser")
             }
+            defaults.setValue(nil, forKey: "isPackageSubscribed")
+            
 //            showAlert(message: "User register sucessfully, please login")
             DispatchQueue.main.async {
                 self.pushToRootVC(toStoryboard: .main, toVC: HomeTabBarController.self)

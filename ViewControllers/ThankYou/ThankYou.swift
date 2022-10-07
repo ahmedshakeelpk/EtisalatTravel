@@ -37,7 +37,8 @@ class ThankYou: UIViewController {
 
         super.viewDidLoad()
 //        imageViewSuccess.image = imageViewSuccess.image?.withRenderingMode(.alwaysTemplate)
-//        imageViewSuccess.tintColor = UIColor.orange
+//        imageViewSuccess.tintColor = .clrAppp
+        
         backGroundDetails.setShadow()
         buttonDone.layer.cornerRadius = 8
         buttonDone.clipsToBounds = true

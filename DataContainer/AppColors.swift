@@ -12,6 +12,9 @@ extension UIColor {
     // Ma Colors
     static let _375D73 = UIColor(hexString: "375D73")
     static let _171D4B = UIColor(hexString: "171D4B")
+    static let clrAppp = UIColor(hexString: "D1392B")
+
+    
     
     static let clrStatusBar: UIColor = #colorLiteral(red: 0, green: 0.5490196078, blue: 0.7882352941, alpha: 1) //UIColor(hexString: "008CC9")
     static let clrDashboardNavBar = UIColor(hexString: "E5E5EA")
