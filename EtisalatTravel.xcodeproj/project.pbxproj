@@ -48,6 +48,8 @@
 		7DD26ED528E78484004822C2 /* ApplePayDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD26ED328E78484004822C2 /* ApplePayDetailCell.xib */; };
 		7DD26ED828E78B37004822C2 /* ThankYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD26ED728E78B37004822C2 /* ThankYou.swift */; };
 		7DD26EDA28EB1465004822C2 /* DataUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD26ED928EB1465004822C2 /* DataUsage.swift */; };
+		A294902528F01F3B00B0B50A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294902428F01F3B00B0B50A /* UIViewExtension.swift */; };
+		A294902728F024DA00B0B50A /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294902628F024DA00B0B50A /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,8 @@
 		7DD26ED328E78484004822C2 /* ApplePayDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApplePayDetailCell.xib; sourceTree = "<group>"; };
 		7DD26ED728E78B37004822C2 /* ThankYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYou.swift; sourceTree = "<group>"; };
 		7DD26ED928EB1465004822C2 /* DataUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUsage.swift; sourceTree = "<group>"; };
+		A294902428F01F3B00B0B50A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A294902628F024DA00B0B50A /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 		7DBA1F6928E2D8AB0070DEDD /* DataContainer */ = {
 			isa = PBXGroup;
 			children = (
+				A294902428F01F3B00B0B50A /* UIViewExtension.swift */,
+				A294902628F024DA00B0B50A /* TextFieldView.swift */,
 				7DBA1F7A28E2F78C0070DEDD /* ViewShape.swift */,
 				7DBA1F7828E2F6750070DEDD /* Variables.swift */,
 				7DBA1F7628E2F6490070DEDD /* AppColors.swift */,
@@ -365,7 +371,9 @@
 				7DD26ED428E78484004822C2 /* ApplePayDetailCell.swift in Sources */,
 				7DBA1F7328E2F58B0070DEDD /* SettingUIDesign.swift in Sources */,
 				7DD26EC928E73922004822C2 /* PayNowPaymentTypeCell.swift in Sources */,
+				A294902528F01F3B00B0B50A /* UIViewExtension.swift in Sources */,
 				7DD26EB728E6DAFD004822C2 /* SignUp.swift in Sources */,
+				A294902728F024DA00B0B50A /* TextFieldView.swift in Sources */,
 				7DD26ED828E78B37004822C2 /* ThankYou.swift in Sources */,
 				7DD26EBE28E6E073004822C2 /* DashboardCountryOpenCell.swift in Sources */,
 				7DD26ED128E77F19004822C2 /* ApplePay.swift in Sources */,
