@@ -21,11 +21,12 @@ class SignIn: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         buttonSignIn.radius(radius: 8)
-        
+        arrayUsers = [ModelUser]()
         if let data = UserDefaults.standard.object(forKey: "modelUser") as? Data,
            let modelUser = try? JSONDecoder().decode([ModelUser].self, from: data) {
             arrayUsers = modelUser
         }
+        
         // Do any additional setup after loading the view.
     }
     @IBOutlet weak var buttonBack: UIButton!
@@ -58,23 +59,8 @@ class SignIn: UIViewController {
             showAlert(message: "Email password invalid")
             return
         }
+
         self.pushToRootVC(toStoryboard: .main, toVC: HomeTabBarController.self)
-//        if let isPackageSubscribed = defaults.value(forKey: "isPackageSubscribed") {
-//            self.pushToVC(toStoryboard: .main, toVC: DataUsage.self) {
-//                vc in
-//                if let vc = vc as? DataUsage {
-//
-//                }
-//            }
-//        }
-//        else {
-//            self.pushToVC(toStoryboard: .main, toVC: Dashboard.self) {
-//                vc in
-//                if let vc = vc as? Dashboard {
-//                    vc.isFromLoginScreen = true
-//                }
-//            }
-//        }
     }
     
     @IBOutlet weak var buttonForgot: UIButton!
