@@ -108,7 +108,7 @@ class WalkThroughs: UIViewController, UIScrollViewDelegate {
             let widthHeight = self.view.frame.width - 70
             let yOfImage = self.scrollView.frame.midY - (widthHeight/2)
             
-            let imgView = UIImageView(frame: CGRect(x: frame.origin.x + 35, y:yOfImage, width: widthHeight, height: widthHeight))
+            let imgView = UIImageView(frame: CGRect(x: frame.origin.x + 35, y:25, width: widthHeight, height: widthHeight))
             
             // 2.
 //            let imgView = UIImageView(frame: frame)
