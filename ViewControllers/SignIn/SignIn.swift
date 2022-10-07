@@ -58,7 +58,7 @@ class SignIn: UIViewController {
             showAlert(message: "Email password invalid")
             return
         }
-        self.pushToRootVC(toStoryboard: .main, toVC: DashboardNavigationController.self)
+        self.pushToRootVC(toStoryboard: .main, toVC: HomeTabBarController.self)
 //        if let isPackageSubscribed = defaults.value(forKey: "isPackageSubscribed") {
 //            self.pushToVC(toStoryboard: .main, toVC: DataUsage.self) {
 //                vc in

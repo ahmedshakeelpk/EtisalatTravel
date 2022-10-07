@@ -57,33 +57,32 @@ class HomeTabBarController: UITabBarController, UITabBarControllerDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        guard let dashboardVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
-        
-        guard let dataUsageVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DataUsage") as? DataUsage else {return}
-
-
-        
         if let isPackageSubscribed = defaults.value(forKey: "isPackageSubscribed") {
+            guard let dataUsageVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DataUsage") as? DataUsage else {return}
             let homeNav = UINavigationController(rootViewController: dataUsageVC)
             homeNav.tabBarItem = UITabBarItem(title: "Shop", image: UIImage(named: "Shop-gray"), selectedImage: UIImage(named: "Shop"))
 
-            let shopNav = UINavigationController(rootViewController: dataUsageVC)
+            guard let dataUsageVC1 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DataUsage") as? DataUsage else {return}
+            let shopNav = UINavigationController(rootViewController: dataUsageVC1)
             shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
 
-            let profileNav = UINavigationController(rootViewController: dataUsageVC)
+            guard let dataUsageVC2 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DataUsage") as? DataUsage else {return}
+            let profileNav = UINavigationController(rootViewController: dataUsageVC2)
             profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
             
             let controllers = [homeNav, shopNav, profileNav]
             self.viewControllers = controllers
         }else {
-            dashboardVC.isFromLoginScreen = true
+            guard let dashboardVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
             let homeNav = UINavigationController(rootViewController: dashboardVC)
             homeNav.tabBarItem = UITabBarItem(title: "Shop", image: UIImage(named: "Shop-gray"), selectedImage: UIImage(named: "Shop"))
 
-            let shopNav = UINavigationController(rootViewController: dashboardVC)
+            guard let dashboardVC1 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
+            let shopNav = UINavigationController(rootViewController: dashboardVC1)
             shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
 
-            let profileNav = UINavigationController(rootViewController: dashboardVC)
+            guard let dashboardVC2 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
+            let profileNav = UINavigationController(rootViewController: dashboardVC2)
             profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
             
             let controllers = [homeNav, shopNav, profileNav]
