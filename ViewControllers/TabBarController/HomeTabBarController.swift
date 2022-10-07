@@ -45,27 +45,32 @@ class HomeTabBarController: UITabBarController, UITabBarControllerDelegate {
         UITabBarItem.appearance().setTitleTextAttributes([.font: UIFont.systemFont(ofSize: 14) ], for: .selected)
         UITabBarItem.appearance().titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -8)
 
-//        let homeVC = HomeRouter.setupModule()
-//        let homeNav = BaseNavigationController(rootViewController: homeVC, colorScheme: .blue)
-//        homeNav.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "ic_Home_inactive"), selectedImage: UIImage(named: "ic_Home_active"))
-//
-//        let walletVC = WalletRouter.setupModule()
-//        let walletNav = BaseNavigationController(rootViewController: walletVC)
-//        walletNav.tabBarItem = UITabBarItem(title: "Wallet", image: UIImage(named: "ic_Wallet_inactive"), selectedImage: UIImage(named: "ic_Wallet_active"))
-//
-//        let qrCodeVC = QRCodeViewController.instantiate(fromAppStoryboard: .AddSendMoney)
-//        let qrCodeNav = BaseNavigationController(rootViewController: qrCodeVC)
-//        qrCodeNav.tabBarItem = UITabBarItem(title: "QRCode", image: UIImage(named: "ic_QRCode_inactive"), selectedImage: UIImage(named: "ic_QRCode_active"))
-//
-//        let profileVC = ProfileRouter.setupModule()
-//        let profileNav = BaseNavigationController(rootViewController: profileVC)
-//        profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "ic_Profile_inactive"), selectedImage: UIImage(named: "ic_Profile_active"))
-                
+        guard let homeVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
+
+        let homeNav = UINavigationController(rootViewController: homeVC)
+        homeNav.tabBarItem = UITabBarItem(title: "Shop", image: UIImage(named: "Shop-gray"), selectedImage: UIImage(named: "Shop"))
         
-        //let controllers = [homeNav, walletNav, qrCodeNav, profileNav]
-        //self.viewControllers = controllers
+        
+        guard let shopVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
+
+        let shopNav = UINavigationController(rootViewController: shopVC)
+        shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
+        
+        
+        guard let profileVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
+
+        let profileNav = UINavigationController(rootViewController: profileVC)
+        profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
+
+
+        let controllers = [homeNav, shopNav, profileNav]
+        self.viewControllers = controllers
 
         self.selectedIndex = 0
+        
+        if let cornerTabBar = self.tabBar as? TabBarWithCorners {
+            cornerTabBar.refreshCorner(radius:0)
+        }
     }
 }
 

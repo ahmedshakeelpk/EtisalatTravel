@@ -28,7 +28,7 @@ class TabBarWithCorners: UITabBar {
         //shapeLayer.strokeColor = UIColor.black.withAlphaComponent(0.1).cgColor
         shapeLayer.fillColor = UIColor.white.cgColor
         //shapeLayer.lineWidth = 2
-        shapeLayer.shadowColor = UIColor.lightGray.withAlphaComponent(0.1).cgColor
+        shapeLayer.shadowColor = UIColor.lightGray.withAlphaComponent(1).cgColor
         shapeLayer.shadowOffset = CGSize(width: 0 , height: -2);
         shapeLayer.shadowOpacity = 0.2
         shapeLayer.shadowRadius = 2
