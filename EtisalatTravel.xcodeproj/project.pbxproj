@@ -50,6 +50,8 @@
 		7DD26EDA28EB1465004822C2 /* DataUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD26ED928EB1465004822C2 /* DataUsage.swift */; };
 		A294902528F01F3B00B0B50A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294902428F01F3B00B0B50A /* UIViewExtension.swift */; };
 		A294902728F024DA00B0B50A /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294902628F024DA00B0B50A /* TextFieldView.swift */; };
+		A294902B28F0371500B0B50A /* TabBarWithCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294902928F0371500B0B50A /* TabBarWithCorners.swift */; };
+		A294902C28F0371500B0B50A /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294902A28F0371500B0B50A /* HomeTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +100,8 @@
 		7DD26ED928EB1465004822C2 /* DataUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUsage.swift; sourceTree = "<group>"; };
 		A294902428F01F3B00B0B50A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		A294902628F024DA00B0B50A /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		A294902928F0371500B0B50A /* TabBarWithCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarWithCorners.swift; sourceTree = "<group>"; };
+		A294902A28F0371500B0B50A /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 				7DD26EB128E6DACB004822C2 /* SignIn */,
 				7DCB6B1228E44F6C00F39756 /* DashboardCardDetails */,
 				7DBA1F7C28E308C40070DEDD /* Dashboard */,
+				A294902828F0371500B0B50A /* TabBarController */,
 				7DBA1F6C28E2F2BA0070DEDD /* WalkhTroughs */,
 			);
 			path = ViewControllers;
@@ -266,6 +271,15 @@
 			path = ThankYou;
 			sourceTree = "<group>";
 		};
+		A294902828F0371500B0B50A /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A294902928F0371500B0B50A /* TabBarWithCorners.swift */,
+				A294902A28F0371500B0B50A /* HomeTabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -361,9 +375,11 @@
 				7DD26EDA28EB1465004822C2 /* DataUsage.swift in Sources */,
 				7DD26ECE28E77F0B004822C2 /* ApplePayCell.swift in Sources */,
 				7D4FA8A728EF3A9B00CC00C1 /* DataUsageCell.swift in Sources */,
+				A294902C28F0371500B0B50A /* HomeTabBarController.swift in Sources */,
 				7DC8C5AD28EC5BF400E11713 /* ApplePayContinueCell.swift in Sources */,
 				7DCB6B1428E44F8700F39756 /* DashboardCardDetails.swift in Sources */,
 				7DCB6B0C28E43EC600F39756 /* DashboardRegionsCell.swift in Sources */,
+				A294902B28F0371500B0B50A /* TabBarWithCorners.swift in Sources */,
 				7DD26EC528E738E1004822C2 /* PayNowDetailCell.swift in Sources */,
 				7DBA1F7728E2F6490070DEDD /* AppColors.swift in Sources */,
 				7DBA1F5728E2D7FF0070DEDD /* SceneDelegate.swift in Sources */,

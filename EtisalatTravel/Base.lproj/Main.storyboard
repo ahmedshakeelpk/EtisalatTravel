@@ -2662,6 +2662,20 @@
             </objects>
             <point key="canvasLocation" x="3352.1739130434785" y="736.60714285714278"/>
         </scene>
+        <!--Home Tab Bar Controller-->
+        <scene sceneID="FgD-71-M5p">
+            <objects>
+                <tabBarController storyboardIdentifier="HomeTabBarController" automaticallyAdjustsScrollViewInsets="NO" id="F1N-jg-W2O" customClass="HomeTabBarController" customModule="etisalatWallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="vdf-9Y-o2U" customClass="TabBarWithCorners" customModule="etisalatWallet" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CqO-dg-MB8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1389" y="-1348"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Background" width="428" height="926"/>
