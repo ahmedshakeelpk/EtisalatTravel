@@ -10,7 +10,7 @@ import UIKit
 class HomeTabBarController: UITabBarController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
-        self.navigationBarHidden()
+//        self.navigationBarHidden()
 
         super.viewDidLoad()
         self.delegate = self

@@ -45,7 +45,7 @@ class SignUp: UIViewController {
             }
 //            showAlert(message: "User register sucessfully, please login")
             DispatchQueue.main.async {
-                self.pushToRootVC(toStoryboard: .main, toVC: DashboardNavigationController.self)
+                self.pushToRootVC(toStoryboard: .main, toVC: HomeTabBarController.self)
             }
         }
         
