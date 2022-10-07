@@ -58,22 +58,23 @@ class SignIn: UIViewController {
             showAlert(message: "Email password invalid")
             return
         }
-        if let isPackageSubscribed = defaults.value(forKey: "isPackageSubscribed") {
-            self.pushToVC(toStoryboard: .main, toVC: DataUsage.self) {
-                vc in
-                if let vc = vc as? DataUsage {
-                    
-                }
-            }
-        }
-        else {
-            self.pushToVC(toStoryboard: .main, toVC: Dashboard.self) {
-                vc in
-                if let vc = vc as? Dashboard {
-                    vc.isFromLoginScreen = true
-                }
-            }
-        }
+        self.pushToRootVC(toStoryboard: .main, toVC: DashboardNavigationController.self)
+//        if let isPackageSubscribed = defaults.value(forKey: "isPackageSubscribed") {
+//            self.pushToVC(toStoryboard: .main, toVC: DataUsage.self) {
+//                vc in
+//                if let vc = vc as? DataUsage {
+//
+//                }
+//            }
+//        }
+//        else {
+//            self.pushToVC(toStoryboard: .main, toVC: Dashboard.self) {
+//                vc in
+//                if let vc = vc as? Dashboard {
+//                    vc.isFromLoginScreen = true
+//                }
+//            }
+//        }
     }
     
     @IBOutlet weak var buttonForgot: UIButton!

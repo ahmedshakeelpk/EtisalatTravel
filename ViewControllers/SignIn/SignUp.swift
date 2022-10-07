@@ -44,7 +44,8 @@ class SignUp: UIViewController {
                 defaults.set(encoded, forKey: "modelUser")
             }
 //            showAlert(message: "User register sucessfully, please login")
-            self.pushToRootVC(toStoryboard: .main, toVC: Dashboard.self)
+            self.pushToRootVC(toStoryboard: .main, toVC: DashboardNavigationController.self)
+
         }
         
         
