@@ -105,6 +105,13 @@ extension PayNow: UITableViewDelegate, UITableViewDataSource {
             cell.isSelectedCell = false
         }
 
+         let cell = tableView.cellForRow(at: IndexPath(row: 0, section: 0)) as! PayNowDetailCell
+        if cell.buttonAgree.tag == 0 {
+            showAlert(message: "Please agree with terms and conditions")
+            return
+        }
+        
+        
         selectedPaymentMethod = indexPath.row
         let cell2 = tableView.cellForRow(at: indexPath) as! PayNowPaymentTypeCell
         cell2.isSelectedCell = true
