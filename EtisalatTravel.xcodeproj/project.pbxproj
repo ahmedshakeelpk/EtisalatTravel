@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7D4FA8A728EF3A9B00CC00C1 /* DataUsageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4FA8A528EF3A9B00CC00C1 /* DataUsageCell.swift */; };
 		7D4FA8A828EF3A9B00CC00C1 /* DataUsageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4FA8A628EF3A9B00CC00C1 /* DataUsageCell.xib */; };
+		7D7D4B4728F0442500AE633E /* DashboardNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D4B4628F0442500AE633E /* DashboardNavigationController.swift */; };
 		7DBA1F5528E2D7FF0070DEDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA1F5428E2D7FF0070DEDD /* AppDelegate.swift */; };
 		7DBA1F5728E2D7FF0070DEDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA1F5628E2D7FF0070DEDD /* SceneDelegate.swift */; };
 		7DBA1F5928E2D7FF0070DEDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA1F5828E2D7FF0070DEDD /* ViewController.swift */; };
@@ -57,6 +58,7 @@
 /* Begin PBXFileReference section */
 		7D4FA8A528EF3A9B00CC00C1 /* DataUsageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUsageCell.swift; sourceTree = "<group>"; };
 		7D4FA8A628EF3A9B00CC00C1 /* DataUsageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataUsageCell.xib; sourceTree = "<group>"; };
+		7D7D4B4628F0442500AE633E /* DashboardNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardNavigationController.swift; sourceTree = "<group>"; };
 		7DBA1F5128E2D7FF0070DEDD /* EtisalatTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtisalatTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBA1F5428E2D7FF0070DEDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DBA1F5628E2D7FF0070DEDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 			children = (
 				A294902928F0371500B0B50A /* TabBarWithCorners.swift */,
 				A294902A28F0371500B0B50A /* HomeTabBarController.swift */,
+				7D7D4B4628F0442500AE633E /* DashboardNavigationController.swift */,
 			);
 			path = TabBarController;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				7DBA1F7528E2F5C80070DEDD /* Extensions.swift in Sources */,
 				7DBA1F8528E30C0C0070DEDD /* DashboardCountryCell.swift in Sources */,
 				7DBA1F7E28E308DD0070DEDD /* Dashboard.swift in Sources */,
+				7D7D4B4728F0442500AE633E /* DashboardNavigationController.swift in Sources */,
 				7DBA1F5928E2D7FF0070DEDD /* ViewController.swift in Sources */,
 				7DBA1F7928E2F6750070DEDD /* Variables.swift in Sources */,
 				7DBA1F5528E2D7FF0070DEDD /* AppDelegate.swift in Sources */,

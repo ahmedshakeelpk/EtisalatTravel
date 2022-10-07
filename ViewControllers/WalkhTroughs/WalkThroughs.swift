@@ -83,8 +83,8 @@ class WalkThroughs: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var buttonSkip: ButtonSetting!
     @IBAction func buttonSkip(_ sender: Any) {
-        //self.pushToVC(toStoryboard: .main, toVC: SignUp.self)
-        self.pushToVC(toStoryboard: .main, toVC: HomeTabBarController.self)
+        self.pushToVC(toStoryboard: .main, toVC: SignUp.self)
+//        self.pushToVC(toStoryboard: .main, toVC: HomeTabBarController.self)
     }
     
     

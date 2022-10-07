@@ -29,7 +29,7 @@ class DataUsageCell: UITableViewCell {
         viewController.pushToVC(toStoryboard: .main, toVC: Dashboard.self) {
             vc in
             if let vc = vc as? Dashboard {
-                vc.isFromLoginScreen = false
+                vc.isFromDataUsageScreen = true
             }
         }
     }

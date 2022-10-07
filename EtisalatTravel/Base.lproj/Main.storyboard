@@ -639,10 +639,10 @@
                                 </constraints>
                             </scrollView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backGroundWhite" translatesAutoresizingMaskIntoConstraints="NO" id="7b7-YF-4cS">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="602"/>
+                                <rect key="frame" x="0.0" y="-44" width="320" height="646"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DhM-zk-0zc">
-                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -2666,6 +2666,7 @@
         <scene sceneID="FgD-71-M5p">
             <objects>
                 <tabBarController storyboardIdentifier="HomeTabBarController" automaticallyAdjustsScrollViewInsets="NO" id="F1N-jg-W2O" customClass="HomeTabBarController" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="len-sD-q4E"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="vdf-9Y-o2U" customClass="TabBarWithCorners" customModule="EtisalatTravel" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2676,10 +2677,10 @@
             </objects>
             <point key="canvasLocation" x="1389" y="-1348"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Dashboard Navigation Controller-->
         <scene sceneID="diJ-ka-pfu">
             <objects>
-                <navigationController storyboardIdentifier="DataUsage" automaticallyAdjustsScrollViewInsets="NO" id="TuS-5M-YlY" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="DashboardNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="TuS-5M-YlY" customClass="DashboardNavigationController" customModule="EtisalatTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9pu-fh-u8x">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -2687,12 +2688,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="ivC-Gg-YZr" kind="relationship" relationship="rootViewController" id="F28-TO-1QT"/>
+                        <segue destination="F1N-jg-W2O" kind="relationship" relationship="rootViewController" id="c4n-Xq-cAg"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fuk-aQ-LQ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1387.5" y="-625.35211267605632"/>
+            <point key="canvasLocation" x="544" y="-1349"/>
         </scene>
     </scenes>
     <resources>

@@ -128,7 +128,7 @@ extension PayNow: UITableViewDelegate, UITableViewDataSource {
 
                     (vc as! ThankYou).doneButtonPress = {
 //                        self.dismissPushViewController()
-                        self.pushToRootVC(toStoryboard: .main, toVC: DataUsage.self)
+                        self.pushToRootVC(toStoryboard: .main, toVC: DashboardNavigationController.self)
                     }
                 }
             }

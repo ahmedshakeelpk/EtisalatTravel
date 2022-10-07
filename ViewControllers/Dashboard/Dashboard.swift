@@ -16,7 +16,7 @@ class Dashboard: UIViewController {
     @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet weak var textFieldSearch: UISearchBar!
     
-    var isFromLoginScreen = false
+    var isFromDataUsageScreen = false
     var arrayCountries: [String] = []
     var arrayFlag: [String] = []
     var selectedIndex: Int!
@@ -48,8 +48,8 @@ class Dashboard: UIViewController {
         textFieldSearch.delegate = self
         super.viewDidLoad()
 
-        buttonBack.isHidden = isFromLoginScreen
-        imageViewBack.isHidden = isFromLoginScreen
+        buttonBack.isHidden = !isFromDataUsageScreen
+        imageViewBack.isHidden = !isFromDataUsageScreen
 
         
         // Do any additional setup after loading the view.
