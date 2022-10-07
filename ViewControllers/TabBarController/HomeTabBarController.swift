@@ -48,17 +48,19 @@ class HomeTabBarController: UITabBarController, UITabBarControllerDelegate {
         guard let homeVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
 
         let homeNav = UINavigationController(rootViewController: homeVC)
-        homeNav.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "ic_Home_inactive"), selectedImage: UIImage(named: "ic_Home_active"))
+        homeNav.tabBarItem = UITabBarItem(title: "Shop", image: UIImage(named: "Shop-gray"), selectedImage: UIImage(named: "Shop"))
+        
         
         guard let shopVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
 
         let shopNav = UINavigationController(rootViewController: shopVC)
-        shopNav.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "ic_Home_inactive"), selectedImage: UIImage(named: "ic_Home_active"))
+        shopNav.tabBarItem = UITabBarItem(title: "My eSIMs", image: UIImage(named: "myeSIMS-gray"), selectedImage: UIImage(named: "myeSIMS"))
+        
         
         guard let profileVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Dashboard") as? Dashboard else {return}
 
         let profileNav = UINavigationController(rootViewController: profileVC)
-        profileNav.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "ic_Home_inactive"), selectedImage: UIImage(named: "ic_Home_active"))
+        profileNav.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profile-gray"), selectedImage: UIImage(named: "profile"))
 
 
         let controllers = [homeNav, shopNav, profileNav]
