@@ -50,7 +50,7 @@ class DataUsage: UIViewController {
             self.progressViewBackground.isHidden = true
             let cell = self.tableView.cellForRow(at: IndexPath(row: 0, section: 0)) as! DataUsageCell
             cell.labelInstallation.text = "e-SIM Installed"
-            self.showAlert(message: "e-SIM is installed customer needs to configure in the phone menu, to to use e-SIM for data roaming, while keeps the physical SIM for voice and SMS.")
+            self.showAlert(message: "eSIM installed successfully for data. While physical SIM to bs used for voice and SMS")
         }
     }
 
