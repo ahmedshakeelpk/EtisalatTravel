@@ -14,8 +14,8 @@ class PayNow: UIViewController {
     var packageType = 0
 
     
-    var arrayTitles = ["", "PayPal", "Google Pay", "Apple Pay", "**** **** **** 4242"]
-    var arrayIcons = ["", "paypal", "google", "apple", "mastercard"]
+    var arrayTitles = ["","Apple Pay", "PayPal", "Google Pay", "**** **** **** 4242"]
+    var arrayIcons = ["", "apple", "paypal", "google", "mastercard"]
     
     var selectedPaymentMethod = 999
     @IBOutlet weak var buttonBack: UIButton!
@@ -64,7 +64,7 @@ extension PayNow: UITableViewDelegate, UITableViewDataSource {
             if packageType == 1 {
                 price = modelCountries.price1!
                 data = "1 GB"
-                validity = "1 DAY"
+                validity = "3 DAYS"
             }
             else if packageType == 2 {
                 price = modelCountries.price2!

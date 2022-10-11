@@ -181,7 +181,7 @@ extension Dashboard: UITableViewDelegate, UITableViewDataSource {
                 cell.labelData3.text = "5 GB"
 
 //                cell.labelValidity1.text = modelCountriesFilter[indexPath.row].validitys! + "DAYS"
-                cell.labelValidity1.text = "1 DAY"
+                cell.labelValidity1.text = "3 DAYS"
                 cell.labelValidity2.text = "7 DAYS"
                 cell.labelValidity3.text = "30 DAYS"
                 

@@ -50,7 +50,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="mw3-Jy-ysl">
                                                         <rect key="frame" x="20" y="60" width="280" height="40"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Abdul!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7J-jA-sbm" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7J-jA-sbm" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="180" height="40"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="180" id="cFP-J2-d3f"/>
@@ -736,7 +736,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rid-tV-f9h">
                                         <rect key="frame" x="0.0" y="44" width="320" height="78"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Abdul!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbR-gd-Lpe" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbR-gd-Lpe" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="20" width="280" height="16"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
                                                 <color key="textColor" red="0.90588235289999997" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2165,7 +2165,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7X0-1p-Xef">
                                         <rect key="frame" x="0.0" y="44" width="320" height="80"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Abdul!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tis-eD-wow" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tis-eD-wow" customClass="LabelSetting" customModule="EtisalatTravel" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="20" width="280" height="10"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
                                                 <color key="textColor" red="0.90588235289999997" green="0.078431372550000003" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2685,7 +2685,7 @@
         <image name="ring" width="297" height="295"/>
         <image name="sim" width="120" height="119"/>
         <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
-        <image name="successNew" width="312" height="312"/>
+        <image name="successNew" width="1146" height="864"/>
         <image name="user" width="315" height="318"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

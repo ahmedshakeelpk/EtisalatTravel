@@ -11,14 +11,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="840" id="KGk-i7-Jjw" customClass="DataUsageCell" customModule="EtisalatTravel" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="840"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="940"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="840"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="940"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uBH-Id-Adj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="840"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="940"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEg-eO-sGb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="10"/>
@@ -329,13 +329,24 @@
                                                     <constraint firstAttribute="width" constant="20" id="mZA-mU-XL3"/>
                                                 </constraints>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXj-Zg-VU7">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="70"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <connections>
+                                                    <action selector="buttonInstallation:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ayu-1v-30E"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="368-ZA-atd"/>
                                             <constraint firstItem="Egf-3O-idk" firstAttribute="centerY" secondItem="pJR-45-hx7" secondAttribute="centerY" id="5l7-Jn-ibz"/>
+                                            <constraint firstAttribute="bottom" secondItem="pXj-Zg-VU7" secondAttribute="bottom" id="C6r-Qe-8Lq"/>
+                                            <constraint firstItem="pXj-Zg-VU7" firstAttribute="top" secondItem="FhU-hM-Fbb" secondAttribute="top" id="IEf-Z5-oeG"/>
                                             <constraint firstItem="pJR-45-hx7" firstAttribute="leading" secondItem="Egf-3O-idk" secondAttribute="trailing" constant="20" id="iTp-ht-0TV"/>
+                                            <constraint firstItem="pXj-Zg-VU7" firstAttribute="leading" secondItem="FhU-hM-Fbb" secondAttribute="leading" id="nFR-Cf-pAT"/>
                                             <constraint firstItem="pJR-45-hx7" firstAttribute="centerX" secondItem="FhU-hM-Fbb" secondAttribute="centerX" id="rby-iU-iOI"/>
+                                            <constraint firstAttribute="trailing" secondItem="pXj-Zg-VU7" secondAttribute="trailing" id="uYn-ob-kuS"/>
                                             <constraint firstItem="pJR-45-hx7" firstAttribute="centerY" secondItem="FhU-hM-Fbb" secondAttribute="centerY" id="w5j-W4-HzZ"/>
                                         </constraints>
                                     </view>
@@ -557,7 +568,7 @@
                                                                                 </constraints>
                                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                                <state key="normal" title="ACTIVATED">
+                                                                                <state key="normal" title="ACTIVATE">
                                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 </state>
                                                                                 <connections>
@@ -609,10 +620,17 @@
                                     <constraint firstAttribute="trailing" secondItem="RMG-oq-YzR" secondAttribute="trailing" constant="20" id="kNu-Ca-eMl"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EAr-jj-ase">
+                                <rect key="frame" x="0.0" y="810" width="320" height="130"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="z2f-jf-c8H"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="840" id="79i-kJ-xKy"/>
+                            <constraint firstAttribute="height" constant="940" id="79i-kJ-xKy"/>
                             <constraint firstAttribute="trailing" secondItem="2Mh-N4-OLA" secondAttribute="trailing" id="Eg6-XG-UpZ"/>
                             <constraint firstItem="2Mh-N4-OLA" firstAttribute="top" secondItem="zEg-eO-sGb" secondAttribute="bottom" id="ICR-Ro-k5i"/>
                             <constraint firstItem="YuP-EN-KUb" firstAttribute="leading" secondItem="uBH-Id-Adj" secondAttribute="leading" id="MmM-Ju-VBr"/>
@@ -637,10 +655,12 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
+                <outlet property="buttonInstallation" destination="pXj-Zg-VU7" id="6MV-XC-88A"/>
                 <outlet property="buttonNotActivited" destination="U1D-pX-o0i" id="BbU-VF-de1"/>
                 <outlet property="buttonShowMore" destination="CUP-6G-nNL" id="jzM-PY-3Qi"/>
                 <outlet property="imageViewCard" destination="jc9-27-7Lj" id="smx-D3-yDw"/>
                 <outlet property="labelCountry" destination="wU1-3l-2oQ" id="e8Q-Rx-3Oj"/>
+                <outlet property="labelInstallation" destination="pJR-45-hx7" id="t0i-1k-y81"/>
                 <outlet property="labelTotalData" destination="pWM-Ul-GC3" id="WA5-ku-wiy"/>
                 <outlet property="labelTotalData2" destination="a3Q-sy-qHH" id="BeX-sW-6Ie"/>
                 <outlet property="labelValidity" destination="Zsb-cO-Z6v" id="0F6-Q8-JfB"/>

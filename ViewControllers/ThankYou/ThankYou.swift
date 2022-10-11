@@ -54,7 +54,7 @@ class ThankYou: UIViewController {
         if packageType == 1 {
             price = modelCountries.price1!
             data = "1 GB"
-            validity = "1 DAY"
+            validity = "3 DAYS"
         }
         else if packageType == 2 {
             price = modelCountries.price2!

@@ -44,6 +44,7 @@ class SignUp: UIViewController {
                 defaults.set(encoded, forKey: "modelUser")
             }
             defaults.setValue(nil, forKey: "isPackageSubscribed")
+            defaults.setValue(nil, forKey: "isPackageActivited")
             
 //            showAlert(message: "User register sucessfully, please login")
             DispatchQueue.main.async {
